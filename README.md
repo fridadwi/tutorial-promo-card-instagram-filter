@@ -1,5 +1,7 @@
 # The How-to Article
 
+![GitHub editor](contributing/images/github_editor.png)
+
 ### When Do I Need a How-to Article?
 
 Sometimes you need to explain in detail how to do a specific task to a user.
