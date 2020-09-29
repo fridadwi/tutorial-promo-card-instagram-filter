@@ -1,6 +1,6 @@
 # The How-to Article
 
-![GitHub editor](contributing/images/github_editor.png)
+![Buka project baru](02_new_project_scale.gif)
 
 ### When Do I Need a How-to Article?
 
