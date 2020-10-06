@@ -44,13 +44,21 @@ Hal yang akan muncul saat kita pertama kali membuka Spark AR adalah popup login 
 
 Untuk Logout Spark AR dari akun yang digunakan saat ini, bisa dilakukan dengan cara : klik **File** lalu pilih **Logout**
 
-### Membuat Project Baru
+## Membuat Project Baru
 
-Pertama kita buka Spark AR, akan ditampilkan beberapa template yang bisa kamu coba. Untuk saat ini kita akan memulai dengan membuat project baru dari awal. 
+Tampilan awal dari SparkAR adalah ///. Kamu bisa membuka dan mempelajari beberapa template yang disediakan, dan terdapat beberapa tutorial yang bisa kamu ikuti.
 
-Klik Create New, lalu New Project
+![homepage](tutorial_images/01_homepage.PNG)
+
+###
+
+Untuk saat ini kita akan memulai dengan membuat project baru dari awal. 
+
+Klik **Create New** > **New Project**
 
 Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita akan belajar dari awal, maka pilihlah Blank Project
+
+![Buproject baru](tutorial_images/02_new_project.gif)
 
 
 
