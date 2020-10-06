@@ -66,9 +66,9 @@ Spark AR akan membuka sebuah window baru yang akan menjadi workarea kita. Jika d
 
 ![mainview](tutorial_images/03_Main_View.PNG)
 
-- A adalah panel Scene
-- B adalah panel Assets
-- C adalah panel View
-- D adalah panel Properties
+- A adalah panel Scene. Scene berguna untuk mengatur hirearki objek-objek yang akan kita gunakan. Secara default sudah disiapkan Ambient Light dan Directional Light. Untuk project ini akan kita abaikan saja kedua object light tersebut.
+- B adalah panel Assets. Panel Assets akan kita gunakan untuk mengorganisir file yang kita gunakan pada project, seperti Image dan Material
+- C adalah panel View. Pada bagian tengah akan menjadi work area utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada projek kita
+- D adalah panel Properties. Pada sisi kanan tersedia panel Properties yang bisa digunakan untuk mengatur setting dari object yang kita gunakan
 
 
