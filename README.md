@@ -66,10 +66,10 @@ Spark AR akan membuka sebuah window baru yang akan menjadi workarea kita. Jika d
 
 ![mainview](tutorial_images/03_Main_View.PNG)
 
-A. panel Scene
-B. panel Assets
-C. panel View
-D. panel Properties
+- A adalah panel Scene
+- B adalah panel Assets
+- C adalah panel View
+- D adalah panel Properties
 
 
 
