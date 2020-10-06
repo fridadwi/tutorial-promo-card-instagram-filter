@@ -88,3 +88,7 @@ Setelah Face Tracker, sekarang kita membutuhkan sebuah objek yang akan menjadi t
 Untuk menambahkan **Plane** kita klik tombol **Add Object** pada panel **Scene**, lalu pilih **Plane** kemudian klik **Insert**
 
 ![add plane](tutorial_images/05_add_plane.gif)
+
+Objek **Plane** telah ditambahkan pada panel **Scene**. Namun objek **Plane** masih diam tidak mengikuti gerakan wajah, ini akan kita perbaiki pada langkah selanjutnya.
+
+![plane not move](tutorial_images/06_plane_not_move.gif)
