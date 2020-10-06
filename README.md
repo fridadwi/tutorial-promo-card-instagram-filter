@@ -117,4 +117,6 @@ Dan untuk menggeser tinggal klik objek pada panel **Scene** dan pada **3D View**
 ![move arrow](tutorial_images/10_move_plane_arrow.gif)
 
 ### Properties
-input2
+Untuk memindahkan objek dengan lebih persisi kita bisa menggunakan panel **Properties**. Sebagai contoh kita klik objek pada panel **Scene** dan pada panel **Properties** kita ubah nilai Position Y menjadi 0.1 sehingga posisi objek **Plane** berpindah ke dahi.
+
+![move properties](tutorial_images/11_move_plane_properties.gif)
