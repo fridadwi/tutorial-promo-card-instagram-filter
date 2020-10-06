@@ -163,4 +163,6 @@ Apabila muncul sebuah **Warning Popup**, artinya kita perlu mengnonaktifkan Face
 
 Selanjutnya kita bisa mengulangi kembali proses menambahkan **Gallery Texture**
 
+Setelah **Gallery Texture** ditambahkan, pada kamera preview akan muncul tombol **Add Media** yang nantinya bisa digunakan oleh user untuk memilih gambar yang dia punya.
 
+![add media button](tutorial_images/17_add_media_button.png)
