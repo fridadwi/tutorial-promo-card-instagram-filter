@@ -38,6 +38,11 @@ https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-studio
 Saat artikel ini dibuat, versi terbaru yang digunakan adalah v98.
 
 ### Login Facebook
+Hal yang akan muncul saat kita pertama kali membuka Spark AR adalah popup login akun Facebook, isilah dengan data akunmu dan kemudian kamu dapat menggunakan Spark AR.
+
+![login](tutorial_images/00_login.PNG)
+
+Untuk Logout Spark AR dari akun yang digunakan saat ini, bisa dilakukan dengan cara : klik **File** lalu pilih **Logout**
 
 ### Membuat Project Baru
 
