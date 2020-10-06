@@ -27,14 +27,13 @@ Spark AR membutuhkan PC dengan spesifikasi minimum seperti berikut
 
 
 #### Akun
-Untuk menggunakan Spark AR dan mempublikasikan Filter yang akan kita buat, dibutuhkan
-* Akun Facebook, untuk login dan menggunakan Spark AR
-* Akun Instagram yang terkoneksi dengan akun Facebook tadi, untuk testing dan publishing Filter yang kita buat 
+Untuk menggunakan Spark AR dan mempublikasikan Filter yang akan kita buat, dibutuhkan beberapa akun yaitu :
+* Akun Facebook, untuk login dan menggunakan Spark AR serta mengorganisir project yang akan kita publish.
+* Akun Instagram yang terkoneksi dengan akun Facebook tadi, untuk testing dan publishing Filter yang kita buat.
 
 Apabila seluruh persyaratan telah terpenuhi sekarang kita bisa mulai install Spark AR dengan mengunduh versi terbarunya di
-```
+
 https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-studio
-```
 
 Saat artikel ini dibuat, versi terbaru yang digunakan adalah v98.
 
