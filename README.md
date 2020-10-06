@@ -127,4 +127,10 @@ Selanjutnya kita akan menambahkan **Material** agar objek dapat memiliki warna a
 
 ## Menambahkan Material
 
-Material adalah aset yang akan mengontrol bagaimana sebuah objek akan ditampilkan pada layar. Material bisa menampilkan warna, gambar, animasi maupun video
+Jika kita perhatikan objek **Plane** saat ini ditampilkan dalam warna kotak catur hitam-putih, itu artinya objek **Plane** belum memiliki data yang akan ditampilkan pada layar. Untuk memberikan tampilan pada objek **Plane** kita membutuhkan sebuah aset yang disebut **Material**
+
+**Material** adalah aset yang akan mengontrol bagaimana sebuah objek akan ditampilkan pada layar. **Material** bisa menampilkan warna, gambar, animasi maupun video.
+
+Untuk menambahkan **Material** klik tombol **Add Asset** pada panel **Assets** lalu pilih Material
+
+![add material](tutorial_images/12_add_material.gif)
