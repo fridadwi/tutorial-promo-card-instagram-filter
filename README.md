@@ -89,6 +89,13 @@ Untuk menambahkan **Plane** kita klik tombol **Add Object** pada panel **Scene**
 
 ![add plane](tutorial_images/05_add_plane.gif)
 
-Objek **Plane** telah ditambahkan pada panel **Scene**. Namun objek **Plane** masih diam tidak mengikuti gerakan wajah, ini akan kita perbaiki pada langkah selanjutnya.
+Objek **Plane** telah ditambahkan pada panel **Scene** dan juga tampak pada panel **3D View**. Namun objek **Plane** masih diam tidak mengikuti gerakan wajah, ini akan kita perbaiki pada langkah selanjutnya.
 
 ![plane not move](tutorial_images/06_plane_not_move.gif)
+
+## Mengatur Ulang Hierarki Objek
+Untuk membuat objek **Plane** bisa bergerak sesuai dengan gerakan wajah, kita perlu mengatur ulang ususan hierarki objek pada **Scene**. Kita perlu memindahkan **Plane** masuk kedalam **Face Tracker** agar dapat bergerak bersama dengan gerakan wajah.
+
+Untuk memindahkan, pada panel **Scene** drag dan drop objek **Plane** kedalam objek **Face Tracker**
+
+![drag and drop](tutorial_images/07_plane_heriarchy.gif)
