@@ -142,3 +142,25 @@ Setelah memiliki aset **Material** langkah selanjutnya akan kita pasangkan **Mat
 Seleksi objek **Plane** pada panel **Scene**, lalu pada panel **Properties** perhatikan bagian **Materials**. Klik tombol **+** untuk memilih **Material** yang sudah kita siapkan
 
 ![place material](tutorial_images/13_place_material.gif)
+
+Setelah dipasangkan **Material**, objek **Plane** berubah warna menjadi putih, mengikuti pengaturan **Material** yang diberikan.
+
+![white plane](tutorial_images/13_place_materiala.gif)
+
+Pada bagian selanjutnya kita akan menambahkan fungsi mengambil gambar dari file image milik user dan memasangnya kedalam **Material** yang sudah dibuat, sehingga nanti user bisa membuat gambar flash cardnya sendiri
+
+## Menambahkan fitur Gallery Texture
+
+Gallery Texture adalah fitur dari Spark AR yang memungkinkan kita untuk menggunakan file dari Gallery user sebagai material. Untuk saat ini fitur ini hanya bisa digunakan untuk platform Instagram.
+
+Untuk menambahkan **Gallery Texture** pada panel **Assets** klik **Add Asset** dan pilih **Gallery Texture**
+
+![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
+
+Apabila muncul sebuah **Warning Popup**, artinya kita perlu mengnonaktifkan Facebook pada Platform yang kita tuju. Klik tombol **Review Platform** lalu hilangkan tanda centang pada opsi Facebook, kemudian klik **Done** untuk menyelesaikan.
+
+![add gallery texture](tutorial_images/15_capability_popup.gif)
+
+Selanjutnya kita bisa mengulangi kembali proses menambahkan **Gallery Texture**
+
+
