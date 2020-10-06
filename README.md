@@ -66,6 +66,10 @@ Spark AR akan membuka sebuah window baru yang akan menjadi workarea kita. Jika d
 
 ![mainview](tutorial_images/03_Main_View.PNG)
 
+A. panel Scene
+B. panel Assets
+C. panel View
+D. panel Properties
 
 
 
@@ -84,9 +88,32 @@ Spark AR akan membuka sebuah window baru yang akan menjadi workarea kita. Jika d
 
 
 
-# The How-to Article
 
-![Buka project baru](02_new_project_scale.gif)
+
+
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+-
 
 ### When Do I Need a How-to Article?
 
