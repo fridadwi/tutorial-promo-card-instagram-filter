@@ -134,3 +134,11 @@ Jika kita perhatikan objek **Plane** saat ini ditampilkan dalam warna kotak catu
 Untuk menambahkan **Material** klik tombol **Add Asset** pada panel **Assets** lalu pilih Material
 
 ![add material](tutorial_images/12_add_material.gif)
+
+## Memasang Material Pada Objek
+
+Setelah memiliki aset **Material** langkah selanjutnya akan kita pasangkan **Material** tersebut ke objek **Plane**
+
+Seleksi objek **Plane** pada panel **Scene**, lalu pada panel **Properties** perhatikan bagian **Materials**. Klik tombol **+** untuk memilih **Material** yang sudah kita siapkan
+
+![place material](tutorial_images/13_place_material.gif)
