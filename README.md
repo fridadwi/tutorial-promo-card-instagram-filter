@@ -99,3 +99,9 @@ Untuk membuat objek **Plane** bisa bergerak sesuai dengan gerakan wajah, kita pe
 Untuk memindahkan, pada panel **Scene** drag dan drop objek **Plane** kedalam objek **Face Tracker**
 
 ![drag and drop](tutorial_images/07_plane_heriarchy.gif)
+
+Dan hasilnya, objek **Plane** ikut bergerak sesuai gerakan wajah
+
+![plane moving](tutorial_images/08_plane_moving.gif)
+
+## Mengatur Posisi Objek
