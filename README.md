@@ -1,3 +1,74 @@
+
+## Overview
+
+Artikel ini akan membahas beberapa hal yang akan membantu kamu mencoba Spark AR untuk pertama kalinya, beberapa hal yang akan dicakup dalam artikel ini adalah
+
+* Persiapan dan cara menginstall Spark AR
+* Membuat filter sederhana berupa Flash Card dengan fitur Gallery Texture
+* Testing dan langkah-langkah untuk mempublish filter yang telah kita buat 
+
+Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan oleh masyarakat umum.
+
+
+## Menginstall Spark AR
+
+Spark AR adalah software yang akan membantu kita untuk blablabla
+
+### Persyaratan
+Untuk menginstall Spark AR ada beberapa hal yang perlu kita persiapkan, diantaranya adalah
+
+#### Hardware
+Spark AR membutuhkan PC dengan spesifikasi minimum seperti berikut
+* Sistem Operasi : Minimum Windows 10 (64 bit) atau MacOS 10.14+
+* RAM minimum 4GB
+* GPU minimal 
+* CPU minimal Intel Core i3 2.5Ghz, or AMD Bulldozer/Jaguar/Puma/Zen with SSE4.1
+
+
+
+#### Akun
+Untuk menggunakan Spark AR dan mempublikasikan Filter yang akan kita buat, dibutuhkan
+* Akun Facebook, untuk login dan menggunakan Spark AR
+* Akun Instagram yang terkoneksi dengan akun Facebook tadi, untuk testing dan publishing Filter yang kita buat 
+
+Apabila seluruh persyaratan telah terpenuhi sekarang kita bisa mulai install Spark AR dengan mengunduh versi terbarunya di
+```
+https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-studio
+```
+
+Saat artikel ini dibuat, versi terbaru yang digunakan adalah v98.
+
+### Login Facebook
+
+### Membuat Project Baru
+
+Pertama kita buka Spark AR, akan ditampilkan beberapa template yang bisa kamu coba. Untuk saat ini kita akan memulai dengan membuat project baru dari awal. 
+
+Klik Create New, lalu New Project
+
+Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita akan belajar dari awal, maka pilihlah Blank Project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # The How-to Article
 
 ![Buka project baru](02_new_project_scale.gif)
@@ -173,4 +244,17 @@ If you find your tutorial really only has one main procedure, consider using a `
 * **Example 1**.
 
 * **Example 2**.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
