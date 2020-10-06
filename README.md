@@ -80,3 +80,11 @@ Untuk menggunakan Face Tracker sangatlah mudah, pada panel **Scene** klik tombol
 ![add face tracker](tutorial_images/04_add_facetracker.gif)
 
 Objek **Face Tracker** akan automatis ditambahkan pada hierarki **Scene**
+Jika diinginkan kamu juga dapat mengganti nama objek yang sudah kita buat dengan menekan key **F2** atau dengan klik kanan lalu pilih **Rename**
+
+## Menambahkan Objek Plane
+Setelah Face Tracker, sekarang kita membutuhkan sebuah objek yang akan menjadi tempat ditampilkannya gambar filter kita. Kita akan menambahkan sebuah objek dengan tipe Plane.
+
+Untuk menambahkan **Plane** kita klik tombol **Add Object** pada panel **Scene**, lalu pilih **Plane** kemudian klik **Insert**
+
+![add plane](tutorial_images/05_add_plane.gif)
