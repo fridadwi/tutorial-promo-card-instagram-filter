@@ -107,7 +107,7 @@ Dan hasilnya, objek **Plane** ikut bergerak sesuai gerakan wajah
 ## Mengatur Posisi Objek
 Jika kita perhatikan saat ini posisi objek **Plane** menutupi wajah, kita perlu mengatur posisi ini agar sesuai dengan yang kita inginkan. Ada beberapa cara yang bisa dilakukan yaitu dengan langsung menggeser objek melalui panel **3D View** atau dengan menggunakan input pada panel **Properties**
 
-### 3D View
+### Menggunakan Panel 3D View
 Memindah objek via **3D View** dapat dilakukan dengan menggeser menggunakan garis panah yang ada. Pertama untuk mempermudah menggeser objek, kita **Pause** kamera preview dengan menekan tombol pause disisi kiri layar
 
 ![pause](tutorial_images/09_pause_cam.gif)
@@ -116,7 +116,15 @@ Dan untuk menggeser tinggal klik objek pada panel **Scene** dan pada **3D View**
 
 ![move arrow](tutorial_images/10_move_plane_arrow.gif)
 
-### Properties
+### Menggunakan Panel Properties
 Untuk memindahkan objek dengan lebih persisi kita bisa menggunakan panel **Properties**. Sebagai contoh kita klik objek pada panel **Scene** dan pada panel **Properties** kita ubah nilai Position Y menjadi 0.1 sehingga posisi objek **Plane** berpindah ke dahi.
 
 ![move properties](tutorial_images/11_move_plane_properties.gif)
+
+
+Selain untuk memindahkan objek, cara-cara tadi juga bisa digunakan untuk mengubah ukuran dan rotasi objek. Silahkan dicoba-coba.
+Selanjutnya kita akan menambahkan **Material** agar objek dapat memiliki warna atau gambar.
+
+## Menambahkan Material
+
+Material adalah aset yang akan mengontrol bagaimana sebuah objek akan ditampilkan pada layar. Material bisa menampilkan warna, gambar, animasi maupun video
