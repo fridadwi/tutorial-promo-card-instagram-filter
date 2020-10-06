@@ -72,3 +72,11 @@ Spark AR akan membuka sebuah window baru yang akan menjadi workarea kita. Jika d
 - D adalah panel Properties. Pada sisi kanan tersedia panel Properties yang bisa digunakan untuk mengatur setting dari object yang kita gunakan
 
 
+## Menambahkan Face Tracker
+Mendeteksi wajah adalah hal utama yang kita butuhkan untuk membuat filter ini, dengan menggunakan Spark AR fitur ini sangat mudah kita buat karena Spark AR telah menyediakan beberapa jenis Tracker diantaranya Face Tracker
+
+Untuk menggunakan Face Tracker sangatlah mudah, pada panel **Scene** klik tombol **Add Object** yang berada di sisi kanan bawah lalu pilih **Face Tracker**
+
+![add face tracker](tutorial_images/04_add_facetracker.gif)
+
+Objek Face Tracker akan automatis ditambahkan pada hierarki Scene
