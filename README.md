@@ -105,3 +105,10 @@ Dan hasilnya, objek **Plane** ikut bergerak sesuai gerakan wajah
 ![plane moving](tutorial_images/08_plane_moving.gif)
 
 ## Mengatur Posisi Objek
+Jika kita perhatikan saat ini posisi objek **Plane** menutupi wajah, kita perlu mengatur posisi ini agar sesuai dengan yang kita inginkan. Ada beberapa cara yang bisa dilakukan yaitu dengan langsung menggeser objek melalui panel **3D View** atau dengan menggunakan input pada panel **Properties**
+
+### 3D View
+geser2
+
+### Properties
+input2
