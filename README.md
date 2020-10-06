@@ -50,18 +50,21 @@ Tampilan awal dari SparkAR adalah ///. Kamu bisa membuka dan mempelajari beberap
 
 ![homepage](tutorial_images/01_homepage.PNG)
 
-###
+### Membuka Blank Project
 
-Untuk saat ini kita akan memulai dengan membuat project baru dari awal. 
+Untuk saat ini kita akan memulai dengan membuat project baru dari awal.
 
 Klik **Create New** > **New Project**
 
-Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita akan belajar dari awal, maka pilihlah Blank Project
+Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita akan belajar dari awal, maka pilihlah **Blank Project**
 
-![Buproject baru](tutorial_images/02_new_project.gif)
+![project baru](tutorial_images/02_new_project.gif)
 
 
+### Tampilan utama Spark AR
+Spark AR akan membuka sebuah window baru yang akan menjadi workarea kita. Jika diperhatikan, workarea kita terbagi menjadi beberapa area utama.
 
+![mainview](tutorial_images/03_Main_View.PNG)
 
 
 
