@@ -108,7 +108,13 @@ Dan hasilnya, objek **Plane** ikut bergerak sesuai gerakan wajah
 Jika kita perhatikan saat ini posisi objek **Plane** menutupi wajah, kita perlu mengatur posisi ini agar sesuai dengan yang kita inginkan. Ada beberapa cara yang bisa dilakukan yaitu dengan langsung menggeser objek melalui panel **3D View** atau dengan menggunakan input pada panel **Properties**
 
 ### 3D View
-geser2
+Memindah objek via **3D View** dapat dilakukan dengan menggeser menggunakan garis panah yang ada. Pertama untuk mempermudah menggeser objek, kita **Pause** kamera preview dengan menekan tombol pause disisi kiri layar
+
+![pause](tutorial_images/09_pause_cam.gif)
+
+Dan untuk menggeser tinggal klik objek pada panel **Scene** dan pada **3D View** arahkan garis panah objek ke posisi yang diinginkan.
+
+![move arrow](tutorial_images/10_move_plane_arrow.gif)
 
 ### Properties
 input2
