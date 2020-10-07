@@ -166,3 +166,13 @@ Selanjutnya kita bisa mengulangi kembali proses menambahkan **Gallery Texture**
 Setelah **Gallery Texture** ditambahkan, pada kamera preview akan muncul tombol **Add Media** yang nantinya bisa digunakan oleh user untuk memilih gambar yang dia punya.
 
 ![add media button](tutorial_images/17_add_media_button.PNG)
+
+## Memasang Texture Ke Material
+
+Saat ini yang terlihat pada objek **Plane** adalah warna putih dari **Material** yang kita punya. Untuk langkah selanjutnya adalah kita akan mencoba memasang texture dari **Gallery Texture** ke **Material** tersebut agar gambar yang nantinya dipilih oleh user dapat ditampilkan pada objek **Plane**.
+
+Klik **Material** yang akan diubah pada panel **Assets**. Pada panel **Properties** perhatikan bagian **Shader Properties**, pada **Texture** klik drop down button dan pilih **galleryTexture0** yang merupakan nama asset **Gallery Texture** kita.
+
+![texture to material](tutorial_images/18_add_texture_to_material.PNG)
+
+
