@@ -198,3 +198,7 @@ Kita bisa coba klik tombol **Add Media** untuk mencoba mengubah Default image de
 ![test the button](tutorial_images/20_test_add_media.gif)
 
 tombol inilah yang nantinya memungkinkan user menggunakan file mereka sendiri pada Filter yang kita buat
+
+Filter yang kita buat sudah hampir jadi, langkah selanjutnya adalah mencobanya pada device secara langsung untuk memastikan tidak ada kendala dalam penggunaannya. Hal ini akan kita lakukan pada bagian selanjutnya
+
+# Mencoba Filter Dan Menerbitkan Filter
