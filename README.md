@@ -295,6 +295,9 @@ Atau bisa diakses melalui **Tab Filter** pada akun **Instagram** kita, tab yang 
 
 ![instagram filter tab](tutorial_images/27_filter_on_instagram.png)
 
+Dengan mendapat approval artinya Filter yang kita buat sudah bisa digunakan oleh publik untuk membuat **Instagram Story**, selamat!
 
+
+# Kesimpulan 
 
 
