@@ -191,4 +191,10 @@ Pilihlah file gambar yang akan kamu gunakan, sebagai contoh kami menggunakan fil
 
 Seperti nampak pada preview, objek **Plane** saat ini sudah memiliki texture default berupa image yang kita pilih tadi
 
+## Mencoba Fitur Add Media
 
+Kita bisa coba klik tombol **Add Media** untuk mencoba mengubah Default image dengan file yang kita punya.
+
+![test the button](tutorial_images/20_test_add_media.gif)
+
+tombol inilah yang nantinya memungkinkan user menggunakan file mereka sendiri pada Filter yang kita buat
