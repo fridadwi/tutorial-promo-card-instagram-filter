@@ -173,6 +173,16 @@ Saat ini yang terlihat pada objek **Plane** adalah warna putih dari **Material**
 
 Klik **Material** yang akan diubah pada panel **Assets**. Pada panel **Properties** perhatikan bagian **Shader Properties**, pada **Texture** klik drop down button dan pilih **galleryTexture0** yang merupakan nama asset **Gallery Texture** kita.
 
-![texture to material](tutorial_images/18_add_texture_to_material.PNG)
+![texture to material](tutorial_images/18_add_texture_to_material.png)
+
+Jika kita perhatikan, objek **Plane** yang semula berwarna putih berubah menjadi berwarna kotak catur kembali. Hal ini dikarenakan **Gallery Texture** belum memiliki data yang akan ditampilkan.
+
+![material checkerboard](tutorial_images/18.png)
+
+Pada langkah selanjutnya kita akan memasang sebuah gambar default yang akan ditampilkan sebelum user memilih gambarnya sendiri.
+
+
+
+
 
 
