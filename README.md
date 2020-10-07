@@ -201,4 +201,48 @@ tombol inilah yang nantinya memungkinkan user menggunakan file mereka sendiri pa
 
 Filter yang kita buat sudah hampir jadi, langkah selanjutnya adalah mencobanya pada device secara langsung untuk memastikan tidak ada kendala dalam penggunaannya. Hal ini akan kita lakukan pada bagian selanjutnya
 
-# Mencoba Filter Dan Menerbitkan Filter
+# Testing Filter Dan Menerbitkan Filter
+
+Testing sebelum menerbitkan Filter adalah salah satu langkah paling penting untuk dilakukan untuk memastikan Filter yang kita buat berjalan dengan baik dan sesuai dengan apa yang kita rencanakan.
+
+## Testing Filter Pada Device
+
+Ada dua cara untuk melakukan testing pada device :
+- Dengan menginstall Spark AR Player pada device
+- Dengan menggunakan akun Instagram pada device
+
+### Testing menggunakan Spark AR Player
+
+Aplikasi Spark AR Player tersedia untuk Android dan IOS, bisa kamu download terlebih dahulu melalui link yang tersedia di https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-player-app
+
+Setelah terinstall, hubungkan device menggunakan USB
+
+Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**
+
+Tunggu hingga muncul nama device, jika sudah muncul klik tombol **Send**. Filter automatis dijalankan pada device
+
+![test the button](tutorial_images/21_preview_apps.gif)
+
+### Testing menggunakan akun Instagram
+Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**. Pada bagian **Send to App** klik **Send** pada Instagram Camera.
+
+Apabila telah terkirim periksa Instagram pada devicemu, akan muncul notifikasi yang bisa kamu tap untuk mencoba Filter yang sudah kamu buat
+
+
+Sebenarnya kita juga bisa testing menggunakan akun Facebook (Facebook Camera), tetapi karena kita menggunakan fitur **Gallery Texture** yang hanya bisa diaplikasikan pada Instagram maka opsi Facebook Camera tidak ditampilkan
+
+## Publishing Filter
+
+Sebelum memulai proses publishing, ada beberapa hal yang perlu kita persiapkan. 
+- Icon. Untuk membuat icon yang sesuai dengan persyaratan silahkan cek penjelasannya di https://sparkar.facebook.com/ar-studio/learn/publishing/icons-and-names-for-spark-ar-effects. Disana juga tersedia template icon yang bisa kamu pakai agar sesuai dengan syarat yang berlaku.
+- Video. Beberapa syarat video yang diperlukan adalah:
+-- Direkam dan disimpan langsung dari kamera Instagram.
+-- Tidak diedit (jangan gunakan video Boomerang, jangan beri teks tambahan).
+-- Rekam dalam bentuk vertikal.
+-- Durasi maksimal 15 detik.
+-- Besar file maksimal 34MB.
+-- Upload dalam bentuk file MP4 atau MOV.
+
+A maximum of 15 seconds long.
+A maximum of 32MB in size.
+Uploaded as a MOV or MP4 file.
