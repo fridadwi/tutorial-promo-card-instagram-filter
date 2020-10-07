@@ -145,7 +145,7 @@ Seleksi objek **Plane** pada panel **Scene**, lalu pada panel **Properties** per
 
 Setelah dipasangkan **Material**, objek **Plane** berubah warna menjadi putih, mengikuti pengaturan **Material** yang diberikan.
 
-![white plane](tutorial_images/13_place_materiala.gif)
+![white plane](tutorial_images/13a_white_material.gif)
 
 Pada bagian selanjutnya kita akan menambahkan fungsi mengambil gambar dari file image milik user dan memasangnya kedalam **Material** yang sudah dibuat, sehingga nanti user bisa membuat gambar flash cardnya sendiri
 
@@ -173,11 +173,9 @@ Saat ini yang terlihat pada objek **Plane** adalah warna putih dari **Material**
 
 Klik **Material** yang akan diubah pada panel **Assets**. Pada panel **Properties** perhatikan bagian **Shader Properties**, pada **Texture** klik drop down button dan pilih **galleryTexture0** yang merupakan nama asset **Gallery Texture** kita.
 
-![texture to material](tutorial_images/18_add_texture_to_material.png)
+![texture to material](tutorial_images/18_add_texture_to_material.gif)
 
 Jika kita perhatikan, objek **Plane** yang semula berwarna putih berubah menjadi berwarna kotak catur kembali. Hal ini dikarenakan **Gallery Texture** belum memiliki data yang akan ditampilkan.
-
-![material checkerboard](tutorial_images/18.png)
 
 Pada langkah selanjutnya kita akan memasang sebuah gambar default yang akan ditampilkan sebelum user memilih gambarnya sendiri.
 
@@ -265,7 +263,8 @@ Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada 
 
 Setelah proses upload selesai kita akan diarahkan ke laman Spark AR Hub
 
-![spark ar hub](tutorial_images/23.gif)
+![spark ar hub](tutorial_images/24_spark_ar_hub.png)
 
-Input informasi dan file-file yang dibutuhkan
+Inputlah informasi dan file-file yang dibutuhkan
 
+![spark ar hub completed](tutorial_images/25_spark_ar_hub_complete.png)
