@@ -219,13 +219,16 @@ Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada 
 
 Tunggu hingga muncul nama device, jika sudah muncul klik tombol **Send**. Filter automatis dijalankan pada device
 
-![test the button](tutorial_images/21_preview_apps.gif)
+![apps preview](tutorial_images/21_preview_apps.gif)
 
 ### Testing menggunakan akun Instagram
 Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**. Pada bagian **Send to App** klik **Send** pada Instagram Camera.
 
+![instagram preview](tutorial_images/22_preview_instagram.gif)
+
 Apabila telah terkirim periksa Instagram pada devicemu, akan muncul notifikasi yang bisa kamu tap untuk mencoba Filter yang sudah kamu buat
 
+![notification](tutorial_images/23_notification.png)
 
 Sebenarnya kita juga bisa testing menggunakan akun Facebook (Facebook Camera), tetapi karena kita menggunakan fitur **Gallery Texture** yang hanya bisa diaplikasikan pada Instagram maka opsi Facebook Camera tidak ditampilkan
 
@@ -273,6 +276,24 @@ Inputlah informasi dan file-file yang dibutuhkan. Beberapa hal yang perlu diperh
 ![spark ar hub completed](tutorial_images/25_spark_ar_hub_complete.png)
 
 Setelah seluruh form terisi, untuk melanjutkan klik tombol **Submit** yang berada di sisi kanan atas laman Spark AR Hub. Apabila belum berhasil menyelesaikan pengisian form bisa klik tombol **Save** dan dilanjutkan pada kesempatan lain dengan mengakses laman https://www.facebook.com/sparkarhub/effects/
+
+Setelah selesai melakukan submisi, kita tinggal menunggu Filter yang kita buat mendapat approval.
+
+## Approval
+
+Sebelum Filter bisa digunakan oleh masyarakat luas, Filter akan melalui proses **Review** dengan jangka waktu antara 1 hingga beberapa hari.
+
+Apabila Filter kita mendapatkan penolakan akan muncul notifikasi di Facebook dan Spark AR Hub, silahkan diperiksa alasan penolakannya dan lakukan perbaikan yang dibutuhkan. Setelah seluruh perbaikan dilakukan kita bisa melakukan submisi kembali.
+
+Apabila Filter kita mendapat persetujuan juga akan muncul notifikasi di Facebook dan Spark AR Hub
+
+Untuk menggunakan Filter yang sudah mendapat persetujuan, kita bisa dapatkan link **Filter** pada **Spark AR Hub**.
+
+![spark ar hub link](tutorial_images/26_filter_link.png)
+
+Atau bisa diakses melalui **Tab Filter** pada akun **Instagram** kita, tab yang ditandai dengan icon wajah.
+
+![instagram filter tab](tutorial_images/27_filter_on_instagram.png)
 
 
 
