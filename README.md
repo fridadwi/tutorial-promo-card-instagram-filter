@@ -181,8 +181,14 @@ Jika kita perhatikan, objek **Plane** yang semula berwarna putih berubah menjadi
 
 Pada langkah selanjutnya kita akan memasang sebuah gambar default yang akan ditampilkan sebelum user memilih gambarnya sendiri.
 
+## Memasang Holding Texture
 
+Klik **Gallery Texture** pada panel **Assets**, pada panel **Properties** berikan centang pada **Holding Texture** dan klik **Choose File**.
 
+Pilihlah file gambar yang akan kamu gunakan, sebagai contoh kami menggunakan file yang tersedia pada github kami //////////////
 
+![holding texture](tutorial_images/19_add_holding_image.gif)
+
+Seperti nampak pada preview, objek **Plane** saat ini sudah memiliki texture default berupa image yang kita pilih tadi
 
 
