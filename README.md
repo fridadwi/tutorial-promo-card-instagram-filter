@@ -253,6 +253,19 @@ Sebelum memulai proses publishing, kita perlu mempersiapkan Icon dan Video demo.
    * Besar file maksimal 34MB.
    * Upload dalam bentuk file MP4 atau MOV.
    
-   Untuk membuat icon yang sesuai dengan persyaratan silahkan cek penjelasannya di https://sparkar.facebook.com/ar-studio/learn/publishing/demo-videos-for-instagram-effects
+   Untuk membuat video demo yang sesuai dengan persyaratan silahkan cek penjelasannya di https://sparkar.facebook.com/ar-studio/learn/publishing/demo-videos-for-instagram-effects
 
+### Upload dan Export
+
+Setelah menyiapkan icon dan video demo, langkah selanjutnya adalah upload project ke Spark AR Hub untuk bisa dipublish.
+
+Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Upload and Export**. Kemudian klik **Upload** pada popup window yang muncul. Tunggu proses uploading hingga selesai
+
+![export and upload](tutorial_images/23_export_and_upload.gif)
+
+Setelah proses upload selesai kita akan diarahkan ke laman Spark AR Hub
+
+![spark ar hub](tutorial_images/23.gif)
+
+Input informasi dan file-file yang dibutuhkan
 
