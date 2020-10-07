@@ -265,6 +265,15 @@ Setelah proses upload selesai kita akan diarahkan ke laman Spark AR Hub
 
 ![spark ar hub](tutorial_images/24_spark_ar_hub.png)
 
-Inputlah informasi dan file-file yang dibutuhkan
+Inputlah informasi dan file-file yang dibutuhkan. Beberapa hal yang perlu diperhatikan antara lain :
+* Pada **Platform** hanya aktifkan **Instagram**, karena fitur **Gallery Texture** tidak tersedia di Facebook.
+* Pada **Categories** pilihlah kategori yang relevan dengan Filter yang kita buat, untuk projek ini bisa dipilih **Appearence and Selfies**.
+* Pada **Publication date** bisa dipilih apakah akan segera dirilis ketika mendapat persetujuan atau ingin dijadwalkan di waktu yang lain.
 
 ![spark ar hub completed](tutorial_images/25_spark_ar_hub_complete.png)
+
+Setelah seluruh form terisi, untuk melanjutkan klik tombol **Submit** yang berada di sisi kanan atas laman Spark AR Hub. Apabila belum berhasil menyelesaikan pengisian form bisa klik tombol **Save** dan dilanjutkan pada kesempatan lain dengan mengakses laman https://www.facebook.com/sparkarhub/effects/
+
+
+
+
