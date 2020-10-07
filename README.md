@@ -235,6 +235,7 @@ Sebenarnya kita juga bisa testing menggunakan akun Facebook (Facebook Camera), t
 
 Sebelum memulai proses publishing, ada beberapa hal yang perlu kita persiapkan. 
 * Icon. Untuk membuat icon yang sesuai dengan persyaratan silahkan cek penjelasannya di https://sparkar.facebook.com/ar-studio/learn/publishing/icons-and-names-for-spark-ar-effects. Disana juga tersedia template icon yang bisa kamu pakai agar sesuai dengan syarat yang berlaku.
+    * syarat lain
 * Video. Beberapa syarat video yang diperlukan adalah:
  * Direkam dan disimpan langsung dari kamera Instagram.
  * Tidak diedit (jangan gunakan video Boomerang, jangan beri teks tambahan).
