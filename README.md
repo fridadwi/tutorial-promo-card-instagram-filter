@@ -68,10 +68,10 @@ Spark AR Studio akan membuka sebuah window baru yang akan menjadi workarea kita.
 
 ![mainview](tutorial_images/03_Main_View.PNG)
 
-- A adalah panel Scene. Scene berguna untuk mengatur hirearki objek-objek yang akan kita gunakan. Secara default sudah disiapkan Ambient Light dan Directional Light. Untuk project ini akan kita abaikan saja kedua object light tersebut.
-- B adalah panel Assets. Panel Assets akan kita gunakan untuk mengorganisir file yang kita gunakan pada project, seperti Image dan Material.
-- C adalah panel View. Pada bagian tengah akan menjadi work area utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada projek kita.
-- D adalah panel Properties. Pada sisi kanan tersedia panel Properties yang bisa digunakan untuk mengatur setting dari object yang kita gunakan.
+- A adalah panel **Scene**. Panel **Scene** berguna untuk mengatur hirearki objek-objek yang akan kita gunakan. Secara default sudah disiapkan Ambient Light dan Directional Light. Untuk project ini akan kita abaikan saja kedua object light tersebut.
+- B adalah panel **Assets**. Panel **Assets** akan kita gunakan untuk mengorganisir file yang kita gunakan pada project, seperti Image dan Material.
+- C adalah panel **View**. Pada bagian tengah akan menjadi workarea utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada projek kita.
+- D adalah panel **Properties**. Pada sisi kanan tersedia panel **Properties** yang bisa digunakan untuk mengatur setting dari object yang kita gunakan.
 
 ## Menambahkan Face Tracker
 Mendeteksi wajah adalah hal utama yang kita butuhkan untuk membuat filter ini, dengan menggunakan Spark AR Studio fitur ini sangat mudah kita buat karena Spark AR Studio telah menyediakan beberapa jenis Tracker diantaranya Face Tracker.
@@ -106,7 +106,7 @@ Dan hasilnya, objek **Plane** ikut bergerak sesuai gerakan wajah.
 ![plane moving](tutorial_images/08_plane_moving.gif)
 
 ## Mengatur Posisi Objek
-Jika kita perhatikan saat ini posisi objek **Plane** menutupi wajah, kita perlu mengatur posisi ini agar sesuai dengan yang kita inginkan. Ada beberapa cara yang bisa dilakukan yaitu dengan langsung menggeser objek melalui panel **3D View** atau dengan menggunakan input pada panel **Properties**.
+Jika kita perhatikan saat ini posisi objek **Plane** menutupi wajah, kita perlu mengatur posisi ini agar sesuai dengan yang kita inginkan. Ada beberapa cara yang bisa dilakukan yaitu dengan langsung menggeser objek melalui panel **3D View** atau dengan menggunakan input pada panel **Properties** yang terdapat disisi kanan layar.
 
 ### Menggunakan Panel 3D View
 Memindah objek via **3D View** dapat dilakukan dengan menggeser menggunakan garis panah yang ada. Pertama untuk mempermudah menggeser objek, kita **Pause** kamera preview dengan menekan tombol pause disisi kiri layar.
@@ -118,7 +118,7 @@ Dan untuk menggeser tinggal klik objek pada panel **Scene** dan pada **3D View**
 ![move arrow](tutorial_images/10_move_plane_arrow.gif)
 
 ### Menggunakan Panel Properties
-Untuk memindahkan objek dengan lebih persisi kita bisa menggunakan panel **Properties**. Sebagai contoh kita klik objek pada panel **Scene** dan pada panel **Properties** kita ubah nilai Position Y menjadi 0.1 sehingga posisi objek **Plane** berpindah ke dahi.
+Untuk memindahkan objek dengan lebih persisi kita bisa menggunakan panel **Properties** . Sebagai contoh kita klik objek pada panel **Scene** dan pada panel **Properties** yang terdapat disisi kanan layar kita ubah nilai Position Y menjadi 0.1 sehingga posisi objek **Plane** berpindah ke dahi.
 
 ![move properties](tutorial_images/11_move_plane_properties.gif)
 
@@ -140,7 +140,7 @@ Untuk menambahkan **Material** klik tombol **Add Asset** pada panel **Assets** l
 
 Setelah memiliki aset **Material** langkah selanjutnya akan kita pasangkan **Material** tersebut ke objek **Plane**.
 
-Seleksi objek **Plane** pada panel **Scene**, lalu pada panel **Properties** perhatikan bagian **Materials**. Klik tombol **+** untuk memilih **Material** yang sudah kita siapkan.
+Seleksi objek **Plane** pada panel **Scene**, lalu pada panel **Properties** yang terdapat disisi kanan layar perhatikan bagian **Materials**. Klik tombol **+** untuk memilih **Material** yang sudah kita siapkan.
 
 ![place material](tutorial_images/13_place_material.gif)
 
@@ -172,7 +172,7 @@ Setelah **Gallery Texture** ditambahkan, pada kamera preview akan muncul tombol 
 
 Saat ini yang terlihat pada objek **Plane** adalah warna putih dari **Material** yang kita punya. Untuk langkah selanjutnya adalah kita akan mencoba memasang texture dari **Gallery Texture** ke **Material** tersebut agar gambar yang nantinya dipilih oleh user dapat ditampilkan pada objek **Plane**.
 
-Klik **Material** yang akan diubah pada panel **Assets**. Pada panel **Properties** perhatikan bagian **Shader Properties**, pada **Texture** klik drop down button dan pilih **galleryTexture0** yang merupakan nama asset **Gallery Texture** kita.
+Klik **Material** yang akan diubah pada panel **Assets**. Pada panel **Properties** yang terdapat disisi kanan layar perhatikan bagian **Shader Properties**, pada **Texture** klik drop down button dan pilih **galleryTexture0** yang merupakan nama asset **Gallery Texture** kita.
 
 ![texture to material](tutorial_images/18_add_texture_to_material.gif)
 
@@ -182,7 +182,7 @@ Pada langkah selanjutnya kita akan memasang sebuah gambar default yang akan dita
 
 ## Memasang Holding Texture
 
-Klik **Gallery Texture** pada panel **Assets**, pada panel **Properties** berikan centang pada **Holding Texture** dan klik **Choose File**.
+Klik **Gallery Texture** pada panel **Assets**, pada panel **Properties** yang terdapat disisi kanan layar berikan centang pada **Holding Texture** dan klik **Choose File**.
 
 Pilihlah file gambar yang akan kamu gunakan, sebagai contoh kami menggunakan file yang tersedia pada github kami https://github.com/fridadwi/supreme-pancake/
 
