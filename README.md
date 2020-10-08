@@ -1,6 +1,10 @@
 
 # Overview
 
+Banyak masalah timbul sepanjang pandemi ini, seperti di Indonesia masalah yang cukup terasa adalah banyaknya orang kehilangan pekerjaan karena perekonomian yang menurun. Banyak orang mencoba mencari opportunity baru dengan mencoba membuka usaha kecil dengan sosial media sebagai platform penjualan mereka, dan tentunya Instagram menjadi salah satu platform favorit yang digunakan.
+
+Salah satu fitur Instagram yang sangat diminati untuk promosi adalah Instagram Story dan Filter, kita akan coba membuat sebuah Filter yang bisa digunakan untuk membantu promosi produk dengan bentuk flash card yang bisa dimodifikasi dengan gambar atau foto dari masing-masing user.
+
 Artikel ini akan mencoba membantu kamu menggunakan Spark AR Studio untuk pertama kalinya, beberapa hal yang akan dicakup dalam artikel ini adalah :
 
 * Persiapan dan cara menginstall Spark AR Studio
