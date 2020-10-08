@@ -5,7 +5,7 @@ Artikel ini akan membahas beberapa hal yang akan membantu kamu mencoba Spark AR 
 
 * Persiapan dan cara menginstall Spark AR Studio
 * Membuat filter sederhana berupa Flash Card dengan fitur Gallery Texture
-* Testing dan langkah-langkah untuk mempublish filter yang telah kita buat 
+* Testing dan langkah-langkah untuk mempublish Filter yang telah kita buat 
 
 Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan oleh masyarakat umum.
 
@@ -21,10 +21,7 @@ Untuk menginstall Spark AR Studio ada beberapa hal yang perlu kita persiapkan, d
 Spark AR Studio membutuhkan PC dengan spesifikasi minimum seperti berikut
 * Sistem Operasi : Minimum Windows 10 (64 bit) atau MacOS 10.14+
 * RAM minimum 4GB
-* GPU minimal 
-* CPU minimal Intel Core i3 2.5Ghz, or AMD Bulldozer/Jaguar/Puma/Zen with SSE4.1
-
-
+Spesifikasi lebih detail dapat dilihat pada laman https://sparkar.facebook.com/ar-studio/learn/downloads/#system-requirements
 
 ### Akun
 Untuk menggunakan Spark AR Studio dan mempublikasikan Filter yang akan kita buat, dibutuhkan beberapa akun yaitu :
@@ -36,9 +33,7 @@ Apabila seluruh persyaratan telah terpenuhi sekarang kita bisa mulai install Spa
 
 https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-studio
 
-Saat artikel ini dibuat, versi terbaru yang digunakan adalah v98.
-
-Setelah berhasil mengunduh installer, silahkan install sesuai dengan langkah-langkah yang ditampilkan.
+Saat artikel ini dibuat, versi terbaru yang digunakan adalah v98. Setelah berhasil mengunduh installer, silahkan install sesuai dengan langkah-langkah yang ditampilkan.
 
 ### Login Facebook
 Hal yang akan muncul saat kita pertama kali membuka Spark AR Studio adalah popup login akun Facebook, isilah dengan data akunmu dan kemudian kamu dapat menggunakan Spark AR Studio.
