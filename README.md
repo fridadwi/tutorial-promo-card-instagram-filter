@@ -288,6 +288,8 @@ Apabila Filter kita mendapatkan penolakan akan muncul notifikasi di Facebook dan
 
 Apabila Filter kita mendapat persetujuan juga akan muncul notifikasi di Facebook dan Spark AR Hub.
 
+![notification](tutorial_images/28_approval_notif.png)
+
 Untuk menggunakan Filter yang sudah mendapat persetujuan, kita bisa dapatkan link **Filter** pada **Spark AR Hub**.
 
 ![spark ar hub link](tutorial_images/26_filter_link.png)
