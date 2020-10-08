@@ -1,10 +1,10 @@
 
 # Overview
 
-Artikel ini akan membahas beberapa hal yang akan membantu kamu mencoba Spark AR Studio untuk pertama kalinya, beberapa hal yang akan dicakup dalam artikel ini adalah
+Artikel ini akan mencoba membantu kamu menggunakan Spark AR Studio untuk pertama kalinya, beberapa hal yang akan dicakup dalam artikel ini adalah :
 
 * Persiapan dan cara menginstall Spark AR Studio
-* Membuat filter sederhana berupa Flash Card dengan fitur Gallery Texture
+* Membuat filter sederhana berupa Flash Card dengan fitur Gallery Texture, dimana nantinya user dapat menggunakan gambar atau fotonya sendiri pada Filter.
 * Testing dan langkah-langkah untuk mempublish Filter yang telah kita buat 
 
 Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan oleh masyarakat umum.
@@ -15,7 +15,7 @@ Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendi
 Spark AR Studio adalah platform augmented reality untuk Mac & Windows yang memungkinkan kita membuat efek AR untuk kamera seluler dengan mudah.
 
 ## Persyaratan
-Untuk menginstall Spark AR Studio ada beberapa hal yang perlu kita persiapkan, diantaranya adalah
+Untuk menginstall Spark AR Studio ada beberapa hal yang perlu kita persiapkan.
 
 ### Hardware
 Spark AR Studio membutuhkan PC dengan spesifikasi minimum seperti berikut
@@ -40,11 +40,11 @@ Hal yang akan muncul saat kita pertama kali membuka Spark AR Studio adalah popup
 
 ![login](tutorial_images/00_login.PNG)
 
-Untuk Logout Spark AR Studio dari akun yang digunakan saat ini, bisa dilakukan dengan cara : klik **File** lalu pilih **Logout**
+Untuk Logout Spark AR Studio dari akun yang digunakan saat ini, bisa dilakukan setelah membuka projek dengan cara : klik **File** lalu pilih **Logout**.
 
 # Membuat Project Baru
 
-Tampilan awal dari SparkAR adalah ///. Kamu bisa membuka dan mempelajari beberapa template yang disediakan, dan terdapat beberapa tutorial yang bisa kamu ikuti.
+Tampilan awal dari Spark AR Studio adalah list beberapa template yang disediakan, dan terdapat beberapa tutorial yang bisa kamu ikuti.
 
 ![homepage](tutorial_images/01_homepage.PNG)
 
@@ -52,9 +52,9 @@ Tampilan awal dari SparkAR adalah ///. Kamu bisa membuka dan mempelajari beberap
 
 Untuk saat ini kita akan memulai dengan membuat project baru dari awal.
 
-Klik **Create New** > **New Project**
+Klik **Create New** > **New Project**.
 
-Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita akan belajar dari awal, maka pilihlah **Blank Project**
+Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita akan belajar dari awal, maka pilihlah **Blank Project**.
 
 ![project baru](tutorial_images/02_new_project.gif)
 
@@ -65,25 +65,24 @@ Spark AR Studio akan membuka sebuah window baru yang akan menjadi workarea kita.
 ![mainview](tutorial_images/03_Main_View.PNG)
 
 - A adalah panel Scene. Scene berguna untuk mengatur hirearki objek-objek yang akan kita gunakan. Secara default sudah disiapkan Ambient Light dan Directional Light. Untuk project ini akan kita abaikan saja kedua object light tersebut.
-- B adalah panel Assets. Panel Assets akan kita gunakan untuk mengorganisir file yang kita gunakan pada project, seperti Image dan Material
-- C adalah panel View. Pada bagian tengah akan menjadi work area utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada projek kita
-- D adalah panel Properties. Pada sisi kanan tersedia panel Properties yang bisa digunakan untuk mengatur setting dari object yang kita gunakan
-
+- B adalah panel Assets. Panel Assets akan kita gunakan untuk mengorganisir file yang kita gunakan pada project, seperti Image dan Material.
+- C adalah panel View. Pada bagian tengah akan menjadi work area utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada projek kita.
+- D adalah panel Properties. Pada sisi kanan tersedia panel Properties yang bisa digunakan untuk mengatur setting dari object yang kita gunakan.
 
 ## Menambahkan Face Tracker
-Mendeteksi wajah adalah hal utama yang kita butuhkan untuk membuat filter ini, dengan menggunakan Spark AR Studio fitur ini sangat mudah kita buat karena Spark AR Studio telah menyediakan beberapa jenis Tracker diantaranya Face Tracker
+Mendeteksi wajah adalah hal utama yang kita butuhkan untuk membuat filter ini, dengan menggunakan Spark AR Studio fitur ini sangat mudah kita buat karena Spark AR Studio telah menyediakan beberapa jenis Tracker diantaranya Face Tracker.
 
-Untuk menggunakan Face Tracker sangatlah mudah, pada panel **Scene** klik tombol **Add Object** yang berada di sisi kanan bawah lalu pilih **Face Tracker** kemudian klik **Insert**
+Untuk menggunakan Face Tracker sangatlah mudah, pada panel **Scene** klik tombol **Add Object** yang berada di sisi kanan bawah lalu pilih **Face Tracker** kemudian klik **Insert**.
 
 ![add face tracker](tutorial_images/04_add_facetracker.gif)
 
-Objek **Face Tracker** akan automatis ditambahkan pada hierarki **Scene**
-Jika diinginkan kamu juga dapat mengganti nama objek yang sudah kita buat dengan menekan key **F2** atau dengan klik kanan lalu pilih **Rename**
+Objek **Face Tracker** akan automatis ditambahkan pada hierarki **Scene**.
+Jika diinginkan kamu juga dapat mengganti nama objek yang sudah kita buat dengan menekan key **F2** atau dengan klik kanan lalu pilih **Rename**.
 
 ## Menambahkan Objek Plane
 Setelah Face Tracker, sekarang kita membutuhkan sebuah objek yang akan menjadi tempat ditampilkannya gambar filter kita. Kita akan menambahkan sebuah objek dengan tipe Plane.
 
-Untuk menambahkan **Plane** kita klik tombol **Add Object** pada panel **Scene**, lalu pilih **Plane** kemudian klik **Insert**
+Untuk menambahkan **Plane** kita klik tombol **Add Object** pada panel **Scene**, lalu pilih **Plane** kemudian klik **Insert**.
 
 ![add plane](tutorial_images/05_add_plane.gif)
 
@@ -94,19 +93,19 @@ Objek **Plane** telah ditambahkan pada panel **Scene** dan juga tampak pada pane
 ## Mengatur Ulang Hierarki Objek
 Untuk membuat objek **Plane** bisa bergerak sesuai dengan gerakan wajah, kita perlu mengatur ulang ususan hierarki objek pada **Scene**. Kita perlu memindahkan **Plane** masuk kedalam **Face Tracker** agar dapat bergerak bersama dengan gerakan wajah.
 
-Untuk memindahkan, pada panel **Scene** drag dan drop objek **Plane** kedalam objek **Face Tracker**
+Untuk memindahkan, pada panel **Scene** drag dan drop objek **Plane** kedalam objek **Face Tracker**.
 
 ![drag and drop](tutorial_images/07_plane_heriarchy.gif)
 
-Dan hasilnya, objek **Plane** ikut bergerak sesuai gerakan wajah
+Dan hasilnya, objek **Plane** ikut bergerak sesuai gerakan wajah.
 
 ![plane moving](tutorial_images/08_plane_moving.gif)
 
 ## Mengatur Posisi Objek
-Jika kita perhatikan saat ini posisi objek **Plane** menutupi wajah, kita perlu mengatur posisi ini agar sesuai dengan yang kita inginkan. Ada beberapa cara yang bisa dilakukan yaitu dengan langsung menggeser objek melalui panel **3D View** atau dengan menggunakan input pada panel **Properties**
+Jika kita perhatikan saat ini posisi objek **Plane** menutupi wajah, kita perlu mengatur posisi ini agar sesuai dengan yang kita inginkan. Ada beberapa cara yang bisa dilakukan yaitu dengan langsung menggeser objek melalui panel **3D View** atau dengan menggunakan input pada panel **Properties**.
 
 ### Menggunakan Panel 3D View
-Memindah objek via **3D View** dapat dilakukan dengan menggeser menggunakan garis panah yang ada. Pertama untuk mempermudah menggeser objek, kita **Pause** kamera preview dengan menekan tombol pause disisi kiri layar
+Memindah objek via **3D View** dapat dilakukan dengan menggeser menggunakan garis panah yang ada. Pertama untuk mempermudah menggeser objek, kita **Pause** kamera preview dengan menekan tombol pause disisi kiri layar.
 
 ![pause](tutorial_images/09_pause_cam.gif)
 
@@ -125,19 +124,19 @@ Selanjutnya kita akan menambahkan **Material** agar objek dapat memiliki warna a
 
 ## Menambahkan Material
 
-Jika kita perhatikan objek **Plane** saat ini ditampilkan dalam warna kotak catur hitam-putih, itu artinya objek **Plane** belum memiliki data yang akan ditampilkan pada layar. Untuk memberikan tampilan pada objek **Plane** kita membutuhkan sebuah aset yang disebut **Material**
+Jika kita perhatikan objek **Plane** saat ini ditampilkan dalam warna kotak catur hitam-putih, itu artinya objek **Plane** belum memiliki data yang akan ditampilkan pada layar. Untuk memberikan tampilan pada objek **Plane** kita membutuhkan sebuah aset yang disebut **Material**.
 
 **Material** adalah aset yang akan mengontrol bagaimana sebuah objek akan ditampilkan pada layar. **Material** bisa menampilkan warna, gambar, animasi maupun video.
 
-Untuk menambahkan **Material** klik tombol **Add Asset** pada panel **Assets** lalu pilih Material
+Untuk menambahkan **Material** klik tombol **Add Asset** pada panel **Assets** lalu pilih Material.
 
 ![add material](tutorial_images/12_add_material.gif)
 
 ## Memasang Material Pada Objek
 
-Setelah memiliki aset **Material** langkah selanjutnya akan kita pasangkan **Material** tersebut ke objek **Plane**
+Setelah memiliki aset **Material** langkah selanjutnya akan kita pasangkan **Material** tersebut ke objek **Plane**.
 
-Seleksi objek **Plane** pada panel **Scene**, lalu pada panel **Properties** perhatikan bagian **Materials**. Klik tombol **+** untuk memilih **Material** yang sudah kita siapkan
+Seleksi objek **Plane** pada panel **Scene**, lalu pada panel **Properties** perhatikan bagian **Materials**. Klik tombol **+** untuk memilih **Material** yang sudah kita siapkan.
 
 ![place material](tutorial_images/13_place_material.gif)
 
@@ -145,13 +144,13 @@ Setelah dipasangkan **Material**, objek **Plane** berubah warna menjadi putih, m
 
 ![white plane](tutorial_images/13a_white_material.gif)
 
-Pada bagian selanjutnya kita akan menambahkan fungsi mengambil gambar dari file image milik user dan memasangnya kedalam **Material** yang sudah dibuat, sehingga nanti user bisa membuat gambar flash cardnya sendiri
+Pada bagian selanjutnya kita akan menambahkan fungsi mengambil gambar dari file image milik user dan memasangnya kedalam **Material** yang sudah dibuat, sehingga nanti user bisa membuat gambar flash cardnya sendiri.
 
 ## Menambahkan fitur Gallery Texture
 
 Gallery Texture adalah fitur dari Spark AR Studio yang memungkinkan kita untuk menggunakan file dari Gallery user sebagai material. Untuk saat ini fitur ini hanya bisa digunakan untuk platform Instagram.
 
-Untuk menambahkan **Gallery Texture** pada panel **Assets** klik **Add Asset** dan pilih **Gallery Texture**
+Untuk menambahkan **Gallery Texture** pada panel **Assets** klik **Add Asset** dan pilih **Gallery Texture**.
 
 ![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
 
@@ -159,7 +158,7 @@ Apabila muncul sebuah **Warning Popup**, artinya kita perlu mengnonaktifkan Face
 
 ![add gallery texture](tutorial_images/15_capability_popup.gif)
 
-Selanjutnya kita bisa mengulangi kembali proses menambahkan **Gallery Texture**
+Selanjutnya kita bisa mengulangi kembali proses menambahkan **Gallery Texture**.
 
 Setelah **Gallery Texture** ditambahkan, pada kamera preview akan muncul tombol **Add Media** yang nantinya bisa digunakan oleh user untuk memilih gambar yang dia punya.
 
@@ -181,11 +180,11 @@ Pada langkah selanjutnya kita akan memasang sebuah gambar default yang akan dita
 
 Klik **Gallery Texture** pada panel **Assets**, pada panel **Properties** berikan centang pada **Holding Texture** dan klik **Choose File**.
 
-Pilihlah file gambar yang akan kamu gunakan, sebagai contoh kami menggunakan file yang tersedia pada github kami //////////////
+Pilihlah file gambar yang akan kamu gunakan, sebagai contoh kami menggunakan file yang tersedia pada github kami https://github.com/fridadwi/supreme-pancake/
 
 ![holding texture](tutorial_images/19_add_holding_image.gif)
 
-Seperti nampak pada preview, objek **Plane** saat ini sudah memiliki texture default berupa image yang kita pilih tadi
+Seperti nampak pada preview, objek **Plane** saat ini sudah memiliki texture default berupa image yang kita pilih tadi.
 
 ## Mencoba Fitur Add Media
 
@@ -193,9 +192,9 @@ Kita bisa coba klik tombol **Add Media** untuk mencoba mengubah Default image de
 
 ![test the button](tutorial_images/20_test_add_media.gif)
 
-tombol inilah yang nantinya memungkinkan user menggunakan file mereka sendiri pada Filter yang kita buat
+tombol inilah yang nantinya memungkinkan user menggunakan file mereka sendiri pada Filter yang kita buat.
 
-Filter yang kita buat sudah hampir jadi, langkah selanjutnya adalah mencobanya pada device secara langsung untuk memastikan tidak ada kendala dalam penggunaannya. Hal ini akan kita lakukan pada bagian selanjutnya
+Filter yang kita buat sudah hampir jadi, langkah selanjutnya adalah mencobanya pada device secara langsung untuk memastikan tidak ada kendala dalam penggunaannya. Hal ini akan kita lakukan pada bagian selanjutnya.
 
 # Testing Filter Dan Menerbitkan Filter
 
@@ -209,13 +208,13 @@ Ada dua cara untuk melakukan testing pada device :
 
 ### Testing menggunakan Spark AR Player
 
-Aplikasi Spark AR Player tersedia untuk Android dan IOS, bisa kamu download terlebih dahulu melalui link yang tersedia di https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-player-app
+Aplikasi Spark AR Player tersedia untuk Android dan IOS, bisa kamu download terlebih dahulu melalui link yang tersedia di https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-player-app.
 
-Setelah terinstall, hubungkan device menggunakan USB
+Setelah terinstall, hubungkan device menggunakan USB.
 
-Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**
+Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**.
 
-Tunggu hingga muncul nama device, jika sudah muncul klik tombol **Send**. Filter automatis dijalankan pada device
+Tunggu hingga muncul nama device, jika sudah muncul klik tombol **Send**. Filter automatis dijalankan pada device.
 
 ![apps preview](tutorial_images/21_preview_apps.gif)
 
@@ -224,16 +223,16 @@ Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada 
 
 ![instagram preview](tutorial_images/22_preview_instagram.gif)
 
-Apabila telah terkirim periksa Instagram pada devicemu, akan muncul notifikasi yang bisa kamu tap untuk mencoba Filter yang sudah kamu buat
+Apabila telah terkirim periksa Instagram pada devicemu, akan muncul notifikasi yang bisa kamu tap untuk mencoba Filter yang sudah kamu buat.
 
 ![notification](tutorial_images/23_notification.png)
 
-Sebenarnya kita juga bisa testing menggunakan akun Facebook (Facebook Camera), tetapi karena kita menggunakan fitur **Gallery Texture** yang hanya bisa diaplikasikan pada Instagram maka opsi Facebook Camera tidak ditampilkan
+Sebenarnya kita juga bisa testing menggunakan akun Facebook (Facebook Camera), tetapi karena kita menggunakan fitur **Gallery Texture** yang hanya bisa diaplikasikan pada Instagram maka opsi Facebook Camera tidak ditampilkan.
 
 ## Publishing Filter
 
 Sebelum memulai proses publishing, kita perlu mempersiapkan Icon dan Video demo. 
-* Beberapa syarat icon yang diperlukan adalah
+* Beberapa syarat icon yang diperlukan adalah :
    * File dalam format PNG atau JPG.
    * Tanpa layer.
    * Tidak menggunakan *rounded corner*.
@@ -252,17 +251,17 @@ Sebelum memulai proses publishing, kita perlu mempersiapkan Icon dan Video demo.
    * Besar file maksimal 34MB.
    * Upload dalam bentuk file MP4 atau MOV.
    
-   Untuk membuat video demo yang sesuai dengan persyaratan silahkan cek penjelasannya di https://sparkar.facebook.com/ar-studio/learn/publishing/demo-videos-for-instagram-effects
+   Untuk membuat video demo yang sesuai dengan persyaratan silahkan cek penjelasannya di https://sparkar.facebook.com/ar-studio/learn/publishing/demo-videos-for-instagram-effects.
 
 ### Upload dan Export
 
 Setelah menyiapkan icon dan video demo, langkah selanjutnya adalah upload project ke Spark AR Hub untuk bisa dipublish.
 
-Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Upload and Export**. Kemudian klik **Upload** pada popup window yang muncul. Tunggu proses uploading hingga selesai
+Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Upload and Export**. Kemudian klik **Upload** pada popup window yang muncul. Tunggu proses uploading hingga selesai.
 
 ![export and upload](tutorial_images/23_export_and_upload.gif)
 
-Setelah proses upload selesai kita akan diarahkan ke laman Spark AR Hub
+Setelah proses upload selesai kita akan diarahkan ke laman Spark AR Hub.
 
 ![spark ar hub](tutorial_images/24_spark_ar_hub.png)
 
@@ -273,7 +272,7 @@ Inputlah informasi dan file-file yang dibutuhkan. Beberapa hal yang perlu diperh
 
 ![spark ar hub completed](tutorial_images/25_spark_ar_hub_complete.png)
 
-Setelah seluruh form terisi, untuk melanjutkan klik tombol **Submit** yang berada di sisi kanan atas laman Spark AR Hub. Apabila belum berhasil menyelesaikan pengisian form bisa klik tombol **Save** dan dilanjutkan pada kesempatan lain dengan mengakses laman https://www.facebook.com/sparkarhub/effects/
+Setelah seluruh form terisi, untuk melanjutkan klik tombol **Submit** yang berada di sisi kanan atas laman Spark AR Hub. Apabila belum berhasil menyelesaikan pengisian form bisa klik tombol **Save** dan dilanjutkan pada kesempatan lain dengan mengakses laman https://www.facebook.com/sparkarhub/effects/.
 
 Setelah selesai melakukan submisi, kita tinggal menunggu Filter yang kita buat mendapat approval.
 
@@ -283,7 +282,7 @@ Sebelum Filter bisa digunakan oleh masyarakat luas, Filter akan melalui proses *
 
 Apabila Filter kita mendapatkan penolakan akan muncul notifikasi di Facebook dan Spark AR Hub, silahkan diperiksa alasan penolakannya dan lakukan perbaikan yang dibutuhkan. Setelah seluruh perbaikan dilakukan kita bisa melakukan submisi kembali.
 
-Apabila Filter kita mendapat persetujuan juga akan muncul notifikasi di Facebook dan Spark AR Hub
+Apabila Filter kita mendapat persetujuan juga akan muncul notifikasi di Facebook dan Spark AR Hub.
 
 Untuk menggunakan Filter yang sudah mendapat persetujuan, kita bisa dapatkan link **Filter** pada **Spark AR Hub**.
 
@@ -296,6 +295,4 @@ Atau bisa diakses melalui **Tab Filter** pada akun **Instagram** kita, tab yang 
 Dengan mendapat approval artinya Filter yang kita buat sudah bisa digunakan oleh publik untuk membuat **Instagram Story**, selamat!
 
 
-# Kesimpulan 
-
-
+# Kesimpulan
