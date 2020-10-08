@@ -12,7 +12,7 @@ Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendi
 
 # Menginstall Spark AR Studio
 
-Spark AR Studio adalah software yang akan membantu kita untuk blablabla
+Spark AR Studio adalah platform augmented reality untuk Mac & Windows yang memungkinkan kita membuat efek AR untuk kamera seluler dengan mudah.
 
 ## Persyaratan
 Untuk menginstall Spark AR Studio ada beberapa hal yang perlu kita persiapkan, diantaranya adalah
@@ -31,11 +31,14 @@ Untuk menggunakan Spark AR Studio dan mempublikasikan Filter yang akan kita buat
 * Akun Facebook, untuk login dan menggunakan Spark AR Studio serta mengorganisir project yang akan kita publish.
 * Akun Instagram yang terkoneksi dengan akun Facebook tadi, untuk testing dan publishing Filter yang kita buat.
 
+### Download Installer
 Apabila seluruh persyaratan telah terpenuhi sekarang kita bisa mulai install Spark AR Studio dengan mengunduh versi terbarunya di
 
 https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-studio
 
 Saat artikel ini dibuat, versi terbaru yang digunakan adalah v98.
+
+Setelah berhasil mengunduh installer, silahkan install sesuai dengan langkah-langkah yang ditampilkan.
 
 ### Login Facebook
 Hal yang akan muncul saat kita pertama kali membuka Spark AR Studio adalah popup login akun Facebook, isilah dengan data akunmu dan kemudian kamu dapat menggunakan Spark AR Studio.
