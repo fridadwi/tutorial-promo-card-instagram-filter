@@ -1,17 +1,19 @@
 
 # Overview
 
-Banyak masalah timbul sepanjang pandemi ini, seperti di Indonesia masalah yang cukup terasa adalah banyaknya orang kehilangan pekerjaan karena perekonomian yang menurun. Banyak orang mencoba mencari opportunity baru dengan mencoba membuka usaha kecil dengan sosial media sebagai platform penjualan mereka, dan tentunya Instagram menjadi salah satu platform favorit yang digunakan.
+Salah satu efek dari pandemi ini di Indonesia adalah banyak orang kehilangan sumber pendapatannya karena perekonomian yang menurun. Dan tidak sedikit dari mereka mencoba mencari kesempatan baru dengan mencoba membuka usaha kecil. Berbagai cara dilakukan untuk promosi usaha mereka dan tentunya sosial media menjadi platform favorit yang digunakan. Instagram sebagai salah satu sosial media dengan pengguna terbesar di Indonesia tentunya menjadi pilihan utama.
 
-Salah satu fitur Instagram yang sangat diminati untuk promosi adalah Instagram Story dan Filter, kita akan coba membuat sebuah Filter yang bisa digunakan untuk membantu promosi produk dengan bentuk flash card yang bisa dimodifikasi dengan gambar atau foto dari masing-masing user.
+Salah satu fitur Instagram yang sangat diminati untuk promosi adalah Instagram Story dengan berbagai Filter menariknya. Dalam artikel tutorial ini kita akan coba membuat sebuah Filter yang dapat digunakan untuk membantu promosi. Filter ini nantinya akan berbentuk flash card yang bisa dimodifikasi dengan gambar atau foto dari masing-masing user.
 
-Artikel ini akan mencoba membantu kamu menggunakan Spark AR Studio untuk pertama kalinya, beberapa hal yang akan dicakup dalam artikel ini adalah :
+Artikel ini kami rancang untuk bisa diaplikasikan oleh user yang awam coding atau bahkan baru pertama kali menggunakan Spark AR Studio, sehingga semoga dapat membantu mereka yang sedang mencari kesempatan baru ditengah pandemi ini.
+
+Beberapa hal yang akan dicakup dalam artikel ini adalah :
 
 * Persiapan dan cara menginstall Spark AR Studio
 * Membuat filter sederhana berupa Flash Card dengan fitur Gallery Texture, dimana nantinya user dapat menggunakan gambar atau fotonya sendiri pada Filter.
-* Testing dan langkah-langkah untuk mempublish Filter yang telah kita buat 
+* Testing dan langkah-langkah untuk menerbitkan Filter yang telah kita buat 
 
-Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan oleh masyarakat umum.
+Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan oleh umum.
 
 
 # Menginstall Spark AR Studio
@@ -29,8 +31,8 @@ Spesifikasi lebih detail dapat dilihat pada laman https://sparkar.facebook.com/a
 
 ### Akun
 Untuk menggunakan Spark AR Studio dan mempublikasikan Filter yang akan kita buat, dibutuhkan beberapa akun yaitu :
-* Akun Facebook, untuk login dan menggunakan Spark AR Studio serta mengorganisir project yang akan kita publish.
-* Akun Instagram yang terkoneksi dengan akun Facebook tadi, untuk testing dan publishing Filter yang kita buat.
+* Akun Facebook, untuk login dan menggunakan Spark AR Studio serta mengorganisir project yang akan kita terbitkan.
+* Akun Instagram yang terkoneksi dengan akun Facebook tadi, untuk testing dan menerbitkan Filter yang kita buat.
 
 ### Download Installer
 Apabila seluruh persyaratan telah terpenuhi sekarang kita bisa mulai install Spark AR Studio dengan mengunduh versi terbarunya di
@@ -44,7 +46,7 @@ Hal yang akan muncul saat kita pertama kali membuka Spark AR Studio adalah popup
 
 ![login](tutorial_images/00_login.PNG)
 
-Untuk Logout Spark AR Studio dari akun yang digunakan saat ini, bisa dilakukan setelah membuka projek dengan cara : klik **File** lalu pilih **Logout**.
+Untuk Logout Spark AR Studio dari akun yang digunakan saat ini, bisa dilakukan setelah membuka project dengan cara : klik **File** lalu pilih **Logout**.
 
 # Membuat Project Baru
 
@@ -70,7 +72,7 @@ Spark AR Studio akan membuka sebuah window baru yang akan menjadi workarea kita.
 
 - A adalah panel **Scene**. Panel **Scene** berguna untuk mengatur hirearki objek-objek yang akan kita gunakan. Secara default sudah disiapkan Ambient Light dan Directional Light. Untuk project ini akan kita abaikan saja kedua object light tersebut.
 - B adalah panel **Assets**. Panel **Assets** akan kita gunakan untuk mengorganisir file yang kita gunakan pada project, seperti Image dan Material.
-- C adalah panel **View**. Pada bagian tengah akan menjadi workarea utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada projek kita.
+- C adalah panel **View**. Pada bagian tengah akan menjadi workarea utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada project kita.
 - D adalah panel **Properties**. Pada sisi kanan tersedia panel **Properties** yang bisa digunakan untuk mengatur setting dari object yang kita gunakan.
 
 ## Menambahkan Face Tracker
@@ -233,9 +235,9 @@ Apabila telah terkirim periksa Instagram pada devicemu, akan muncul notifikasi y
 
 Sebenarnya kita juga bisa testing menggunakan akun Facebook (Facebook Camera), tetapi karena kita menggunakan fitur **Gallery Texture** yang hanya bisa diaplikasikan pada Instagram maka opsi Facebook Camera tidak ditampilkan.
 
-## Publishing Filter
+## Menerbitkan Filter
 
-Sebelum memulai proses publishing, kita perlu mempersiapkan Icon dan Video demo. 
+Sebelum memulai proses penerbitan, kita perlu mempersiapkan Icon dan Video demo. 
 * Beberapa syarat icon yang diperlukan adalah :
    * File dalam format PNG atau JPG.
    * Tanpa layer.
@@ -259,7 +261,7 @@ Sebelum memulai proses publishing, kita perlu mempersiapkan Icon dan Video demo.
 
 ### Upload dan Export
 
-Setelah menyiapkan icon dan video demo, langkah selanjutnya adalah upload project ke Spark AR Hub untuk bisa dipublish.
+Setelah menyiapkan icon dan video demo, langkah selanjutnya adalah upload project ke Spark AR Hub untuk bisa diterbitkan.
 
 Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Upload and Export**. Kemudian klik **Upload** pada popup window yang muncul. Tunggu proses uploading hingga selesai.
 
@@ -271,7 +273,7 @@ Setelah proses upload selesai kita akan diarahkan ke laman Spark AR Hub.
 
 Inputlah informasi dan file-file yang dibutuhkan. Beberapa hal yang perlu diperhatikan antara lain :
 * Pada **Platform** hanya aktifkan **Instagram**, karena fitur **Gallery Texture** tidak tersedia di Facebook.
-* Pada **Categories** pilihlah kategori yang relevan dengan Filter yang kita buat, untuk projek ini bisa dipilih **Appearence and Selfies**.
+* Pada **Categories** pilihlah kategori yang relevan dengan Filter yang kita buat, untuk project ini bisa dipilih **Appearence and Selfies**.
 * Pada **Publication date** bisa dipilih apakah akan segera dirilis ketika mendapat persetujuan atau ingin dijadwalkan di waktu yang lain.
 
 ![spark ar hub completed](tutorial_images/25_spark_ar_hub_complete.png)
