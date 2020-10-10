@@ -16,7 +16,7 @@ Beberapa hal yang akan dicakup dalam artikel ini adalah :
 Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan oleh umum.
 
 
-# Menginstall Spark AR Studio
+# ![star](images/star.gif) Menginstall Spark AR Studio
 
 Spark AR Studio adalah platform augmented reality untuk Mac & Windows yang memungkinkan kita membuat efek AR untuk kamera seluler dengan mudah.
 
