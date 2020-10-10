@@ -5,14 +5,14 @@
 
 2020 merupakan tahun yang cukup berat untuk semua orang diseluruh dunia, termasuk disini di Indonesia banyak orang kehilangan sumber pendapatannya karena sektor perekonomian yang menurun. Dan tidak sedikit dari mereka mencoba mencari kesempatan baru dengan membuka usaha kecil. Berbagai cara dilakukan untuk promosi usaha mereka dan tentunya sosial media menjadi platform favorit yang digunakan. Instagram sebagai salah satu sosial media dengan pengguna terbesar di Indonesia tentunya menjadi pilihan utama.
 
-Salah satu fitur Instagram yang sangat diminati untuk promosi adalah Instagram Story dengan berbagai Filter menariknya. Dalam artikel tutorial ini kita akan coba membuat sebuah Filter yang dapat digunakan untuk membantu promosi. Filter ini nantinya akan berbentuk flash card yang bisa dimodifikasi dengan gambar atau foto dari masing-masing user.
+Salah satu fitur Instagram yang sangat diminati untuk promosi adalah Instagram Story dengan berbagai Filter menariknya. Dalam artikel tutorial ini kita akan coba membuat sebuah Filter yang dapat digunakan untuk membantu promosi. Filter ini nantinya akan berbentuk Promo Card yang bisa dimodifikasi dengan gambar atau foto dari masing-masing user.
 
-Artikel ini kami rancang untuk bisa diaplikasikan oleh user yang awam coding atau bahkan baru pertama kali menggunakan Spark AR Studio, sehingga semoga dapat membantu mereka yang sedang mencari kesempatan baru ditengah pandemi ini.
+Artikel ini kami rancang untuk bisa diaplikasikan oleh user yang awam coding atau bahkan baru pertama kali menggunakan **Spark AR Studio**, sehingga semoga dapat membantu mereka yang sedang mencari kesempatan baru ditengah pandemi ini.
 
 Beberapa hal yang akan dicakup dalam artikel ini adalah :
 
-* Persiapan dan cara menginstall Spark AR Studio
-* Membuat filter sederhana berupa Flash Card dengan fitur Gallery Texture, dimana nantinya user dapat menggunakan gambar atau fotonya sendiri pada Filter.
+* Persiapan dan cara menginstall **Spark AR Studio**
+* Membuat filter sederhana berupa Promo Card dengan fitur Gallery Texture, dimana nantinya user dapat menggunakan gambar atau fotonya sendiri pada Filter.
 * Testing dan langkah-langkah untuk menerbitkan Filter yang telah kita buat 
 
 Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan oleh umum.
@@ -20,40 +20,40 @@ Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendi
 
 # ![list](image/list.gif) Menginstall Spark AR Studio
 
-Spark AR Studio adalah platform augmented reality untuk Mac & Windows yang memungkinkan kita membuat efek AR untuk kamera seluler dengan mudah. Pada bagian ini kita akan mempersiapkan hal-hal yang dibutuhkan untuk penggunaan Spark AR Studio 
+**Spark AR Studio** adalah platform augmented reality untuk Mac & Windows yang memungkinkan kita membuat efek AR untuk kamera seluler dengan mudah. Pada bagian ini kita akan mempersiapkan hal-hal yang dibutuhkan untuk penggunaan **Spark AR Studio** 
 
 ![prepare](image/prepare.gif) 
 
 ## Persyaratan
-Untuk menginstall Spark AR Studio ada beberapa hal yang perlu kita persiapkan.
+Untuk menginstall **Spark AR Studio** ada beberapa hal yang perlu kita persiapkan.
 
 ### Hardware
-Spark AR Studio membutuhkan PC dengan spesifikasi minimum seperti berikut
+**Spark AR Studio** membutuhkan PC dengan spesifikasi minimum seperti berikut
 * Sistem Operasi : Minimum Windows 10 (64 bit) atau MacOS 10.14+
 * RAM minimum 4GB
 
 Spesifikasi lebih detail dapat dilihat pada laman https://sparkar.facebook.com/ar-studio/learn/downloads/#system-requirements
 
 ### Akun
-Untuk menggunakan Spark AR Studio dan mempublikasikan Filter yang akan kita buat, dibutuhkan beberapa akun yaitu :
-* Akun Facebook, untuk login dan menggunakan Spark AR Studio serta mengorganisir project yang akan kita terbitkan.
+Untuk menggunakan **Spark AR Studio** dan mempublikasikan Filter yang akan kita buat, dibutuhkan beberapa akun yaitu :
+* Akun Facebook, untuk login dan menggunakan **Spark AR Studio** serta mengorganisir project yang akan kita terbitkan.
 * Akun Instagram yang terkoneksi dengan akun Facebook tadi, untuk testing dan menerbitkan Filter yang kita buat.
 
 ### Download Installer
-Apabila seluruh persyaratan telah terpenuhi sekarang kita bisa mulai install Spark AR Studio dengan mengunduh versi terbarunya di
+Apabila seluruh persyaratan telah terpenuhi sekarang kita bisa mulai install **Spark AR Studio** dengan mengunduh versi terbarunya di
 
 https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-studio
 
 Saat artikel ini dibuat, versi terbaru yang digunakan adalah v98. Setelah berhasil mengunduh installer, silahkan install sesuai dengan langkah-langkah yang ditampilkan.
 
 ### Login Facebook
-Hal yang akan muncul saat kita pertama kali membuka Spark AR Studio adalah popup login akun Facebook, isilah dengan data akunmu dan kemudian kamu dapat menggunakan Spark AR Studio.
+Hal yang akan muncul saat kita pertama kali membuka **Spark AR Studio** adalah popup login akun Facebook, isilah dengan data akunmu dan kemudian kamu dapat menggunakan **Spark AR Studio**.
 
 ![login](tutorial_images/00_login.PNG)
 
-Untuk Logout Spark AR Studio dari akun yang digunakan saat ini, bisa dilakukan setelah membuka project dengan cara : klik **File** lalu pilih **Logout**.
+Untuk logout **Spark AR Studio** dari akun yang digunakan saat ini, bisa dilakukan setelah membuka project dengan cara : klik **File** lalu pilih **Logout**.
 
-Ini adalah akhir dari bagian pertama dari total 3 bagian tutorial ini. Kamu sudah berhasil menyiapkan Spark AR Studio untuk membuat Filter di pada bagian kedua tutorial ini. 
+Ini adalah akhir dari bagian pertama dari total 3 bagian tutorial ini. Kamu sudah berhasil menyiapkan **Spark AR Studio** untuk membuat Filter di pada bagian kedua tutorial ini. 
 
 ![goodjob](image/goodjob.gif) 
 
@@ -63,7 +63,7 @@ Pada bagian ini kita akan mulai untuk membuat project Filter.
 
 ![start project](image/startproject.gif) 
 
-Silahkan buka Spark AR Studio yang sudah di install, tampilan awal dari Spark AR Studio adalah list beberapa template yang disediakan, dan terdapat beberapa tutorial yang bisa kamu ikuti.
+Silahkan buka **Spark AR Studio** yang sudah di install, tampilan awal dari **Spark AR Studio** adalah list beberapa template yang disediakan, dan terdapat beberapa tutorial yang bisa kamu ikuti.
 
 ![homepage](tutorial_images/01_homepage.PNG)
 
@@ -79,7 +79,7 @@ Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita ak
 
 
 ## Tampilan utama Spark AR Studio
-Spark AR Studio akan membuka sebuah window baru yang akan menjadi workarea kita. Jika diperhatikan, workarea kita terbagi menjadi beberapa area utama.
+**Spark AR Studio** akan membuka sebuah window baru yang akan menjadi workarea kita. Jika diperhatikan, workarea kita terbagi menjadi beberapa area utama.
 
 ![mainview](tutorial_images/03_Main_View.PNG)
 
@@ -89,7 +89,7 @@ Spark AR Studio akan membuka sebuah window baru yang akan menjadi workarea kita.
 - D adalah panel **Properties**. Pada sisi kanan tersedia panel **Properties** yang bisa digunakan untuk mengatur setting dari object yang kita gunakan.
 
 ## Menambahkan Face Tracker
-Mendeteksi wajah adalah hal utama yang kita butuhkan untuk membuat filter ini, dengan menggunakan Spark AR Studio fitur ini sangat mudah kita buat karena Spark AR Studio telah menyediakan beberapa jenis Tracker diantaranya Face Tracker.
+Mendeteksi wajah adalah hal utama yang kita butuhkan untuk membuat filter ini, dengan menggunakan **Spark AR Studio** fitur ini sangat mudah kita buat karena **Spark AR Studio** telah menyediakan beberapa jenis Tracker diantaranya Face Tracker.
 
 Untuk menggunakan Face Tracker sangatlah mudah, pada panel **Scene** klik tombol **Add Object** yang berada di sisi kanan bawah lalu pilih **Face Tracker** kemudian klik **Insert**.
 
@@ -163,11 +163,11 @@ Setelah dipasangkan **Material**, objek **Plane** berubah warna menjadi putih, m
 
 ![white plane](tutorial_images/13a_white_material.gif)
 
-Pada bagian selanjutnya kita akan menambahkan fungsi mengambil gambar dari file image milik user dan memasangnya kedalam **Material** yang sudah dibuat, sehingga nanti user bisa membuat gambar flash cardnya sendiri.
+Pada bagian selanjutnya kita akan menambahkan fungsi mengambil gambar dari file image milik user dan memasangnya kedalam **Material** yang sudah dibuat, sehingga nanti user bisa membuat gambar Promo Card-nya sendiri.
 
 ## Menambahkan fitur Gallery Texture
 
-Gallery Texture adalah fitur dari Spark AR Studio yang memungkinkan kita untuk menggunakan file dari Gallery user sebagai material. Untuk saat ini fitur ini hanya bisa digunakan untuk platform Instagram.
+**Gallery Texture** adalah fitur dari **Spark AR Studio** yang memungkinkan kita untuk menggunakan file dari Gallery user sebagai material. Untuk saat ini fitur ini hanya bisa digunakan untuk platform Instagram.
 
 Untuk menambahkan **Gallery Texture** pada panel **Assets** klik **Add Asset** dan pilih **Gallery Texture**.
 
@@ -235,14 +235,14 @@ Aplikasi Spark AR Player tersedia untuk Android dan IOS, bisa kamu download terl
 
 Setelah terinstall, hubungkan device menggunakan USB.
 
-Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**.
+Pada **Spark AR Studio** bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**.
 
 Tunggu hingga muncul nama device, jika sudah muncul klik tombol **Send**. Filter automatis dijalankan pada device.
 
 ![apps preview](tutorial_images/21_preview_apps.gif)
 
 ### Testing menggunakan akun Instagram
-Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**. Pada bagian **Send to App** klik **Send** pada Instagram Camera.
+Pada **Spark AR Studio** bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**. Pada bagian **Send to App** klik **Send** pada **Instagram Camera**.
 
 ![instagram preview](tutorial_images/22_preview_instagram.gif)
 
@@ -280,11 +280,11 @@ Sebelum memulai proses penerbitan, kita perlu mempersiapkan Icon dan Video demo.
 
 Setelah menyiapkan icon dan video demo, langkah selanjutnya adalah upload project ke Spark AR Hub untuk bisa diterbitkan.
 
-Pada Spark AR Studio pada bagian kiri bawah terdapat beberapa button, klik pada button **Upload and Export**. Kemudian klik **Upload** pada popup window yang muncul. Tunggu proses uploading hingga selesai.
+Pada **Spark AR Studio** pada bagian kiri bawah terdapat beberapa button, klik pada button **Upload and Export**. Kemudian klik **Upload** pada popup window yang muncul. Tunggu proses uploading hingga selesai.
 
 ![export and upload](tutorial_images/23_export_and_upload.gif)
 
-Setelah proses upload selesai kita akan diarahkan ke laman Spark AR Hub.
+Setelah proses upload selesai kita akan diarahkan ke laman **Spark AR Hub**.
 
 ![spark ar hub](tutorial_images/24_spark_ar_hub.png)
 
@@ -295,7 +295,7 @@ Inputlah informasi dan file-file yang dibutuhkan. Beberapa hal yang perlu diperh
 
 ![spark ar hub completed](tutorial_images/25_spark_ar_hub_complete.png)
 
-Setelah seluruh form terisi, untuk melanjutkan klik tombol **Submit** yang berada di sisi kanan atas laman Spark AR Hub. Apabila belum berhasil menyelesaikan pengisian form bisa klik tombol **Save** dan dilanjutkan pada kesempatan lain dengan mengakses laman https://www.facebook.com/sparkarhub/effects/.
+Setelah seluruh form terisi, untuk melanjutkan klik tombol **Submit** yang berada di sisi kanan atas laman **Spark AR Hub**. Apabila belum berhasil menyelesaikan pengisian form bisa klik tombol **Save** dan dilanjutkan pada kesempatan lain dengan mengakses laman https://www.facebook.com/sparkarhub/effects/.
 
 Setelah selesai melakukan submisi, kita tinggal menunggu Filter yang kita buat mendapat approval.
 
@@ -319,7 +319,7 @@ Atau bisa diakses melalui **Tab Filter** pada akun **Instagram** kita, tab yang 
 
 Dengan mendapat approval artinya Filter yang kita buat sudah bisa digunakan oleh publik untuk membuat **Instagram Story**.
 
-Selamat! kamu sudah menyelesaikan seluruh langkah-langkah untuk membuat Filter menggunakan Spark AR Studio
+Selamat! kamu sudah menyelesaikan seluruh langkah-langkah untuk membuat Filter menggunakan **Spark AR Studio**.
  
 ![goodjob](image/goodjob.gif) 
 
