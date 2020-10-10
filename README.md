@@ -54,11 +54,16 @@ Hal yang akan muncul saat kita pertama kali membuka Spark AR Studio adalah popup
 Untuk Logout Spark AR Studio dari akun yang digunakan saat ini, bisa dilakukan setelah membuka project dengan cara : klik **File** lalu pilih **Logout**.
 
 Ini adalah akhir dari bagian pertama dari total 3 bagian tutorial ini. Kamu sudah berhasil menyiapkan Spark AR Studio untuk membuat Filter di pada bagian kedua tutorial ini. 
+
 ![goodjob](image/goodjob.gif) 
 
 # ![list](image/list.gif) Membuat Project Baru
 
-Tampilan awal dari Spark AR Studio adalah list beberapa template yang disediakan, dan terdapat beberapa tutorial yang bisa kamu ikuti.
+Pada bagian ini kita akan mulai untuk membuat project Filter.
+
+![start](image/start.gif) 
+
+Silahkan buka Spark AR Studio yang sudah di install, tampilan awal dari Spark AR Studio adalah list beberapa template yang disediakan, dan terdapat beberapa tutorial yang bisa kamu ikuti.
 
 ![homepage](tutorial_images/01_homepage.PNG)
 
