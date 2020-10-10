@@ -55,7 +55,7 @@ Hal yang akan muncul saat kita pertama kali membuka **Spark AR Studio** adalah p
 
 Untuk logout **Spark AR Studio** dari akun yang digunakan saat ini, bisa dilakukan setelah membuka project dengan cara : klik **File** lalu pilih **Logout**.
 
-Ini adalah akhir dari bagian pertama dari total 3 bagian tutorial ini. Kamu sudah berhasil menyiapkan **Spark AR Studio** untuk membuat **Filter** di pada bagian kedua tutorial ini. 
+Ini adalah akhir bagian pertama dari total 3 bagian tutorial. Kamu sudah berhasil menyiapkan **Spark AR Studio** untuk membuat **Filter** yang akan dibahas pada bagian kedua tutorial ini. 
 
 ![goodjob](image/goodjob.gif) 
 
@@ -65,7 +65,7 @@ Pada bagian ini kita akan mulai untuk membuat project Filter.
 
 ![start project](image/startproject.gif) 
 
-Silahkan buka **Spark AR Studio** yang sudah di install, tampilan awal dari **Spark AR Studio** adalah list beberapa template yang disediakan, dan terdapat beberapa tutorial yang bisa kamu ikuti.
+Silahkan buka **Spark AR Studio** yang sudah di install, tampilan awal dari **Spark AR Studio** adalah list beberapa template yang disediakan, dan terdapat beberapa tutorial yang nanti bisa kamu coba-coba sendiri.
 
 ![homepage](tutorial_images/01_homepage.PNG)
 
@@ -85,20 +85,20 @@ Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita ak
 
 ![mainview](tutorial_images/03_Main_View.PNG)
 
-- A adalah panel **Scene**. Panel **Scene** berguna untuk mengatur hirearki objek-objek yang akan kita gunakan. Secara default sudah disiapkan Ambient Light dan Directional Light. Untuk project ini akan kita abaikan saja kedua object light tersebut.
+- A adalah panel **Scene**. Panel **Scene** berguna untuk mengatur urutan objek-objek yang akan kita gunakan. Secara default sudah disiapkan Ambient Light dan Directional Light. Untuk project ini akan kita abaikan saja kedua objek light tersebut.
 - B adalah panel **Assets**. Panel **Assets** akan kita gunakan untuk mengorganisir file yang kita gunakan pada project, seperti Image dan Material.
 - C adalah panel **View**. Pada bagian tengah akan menjadi workarea utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada project kita.
 - D adalah panel **Properties**. Pada sisi kanan tersedia panel **Properties** yang bisa digunakan untuk mengatur setting dari object yang kita gunakan.
 
 ## Menambahkan Face Tracker
-Mendeteksi wajah adalah hal utama yang kita butuhkan untuk membuat **Filter** ini, dengan menggunakan **Spark AR Studio** fitur ini sangat mudah kita buat karena **Spark AR Studio** telah menyediakan beberapa jenis Tracker diantaranya Face Tracker.
+Mendeteksi wajah adalah hal utama yang kita butuhkan untuk membuat **Filter** ini, dengan menggunakan **Spark AR Studio** fitur ini sangat mudah kita buat karena **Spark AR Studio** telah menyediakan beberapa jenis tracker diantaranya **Face Tracker**.
 
 Untuk menggunakan Face Tracker sangatlah mudah, pada panel **Scene** klik tombol **Add Object** yang berada di sisi kanan bawah lalu pilih **Face Tracker** kemudian klik **Insert**.
 
 ![add face tracker](tutorial_images/04_add_facetracker.gif)
 
 Objek **Face Tracker** akan automatis ditambahkan pada hierarki **Scene**.
-Jika diinginkan kamu juga dapat mengganti nama objek yang sudah kita buat dengan menekan key **F2** atau dengan klik kanan lalu pilih **Rename**.
+Jika diinginkan kamu juga dapat mengganti nama objek yang sudah kita buat dengan klik dua kali atau dengan klik kanan lalu pilih **Rename**.
 
 ## Menambahkan Objek Plane
 Setelah Face Tracker, sekarang kita membutuhkan sebuah objek yang akan menjadi tempat ditampilkannya gambar filter kita. Kita akan menambahkan sebuah objek dengan tipe Plane.
@@ -107,12 +107,12 @@ Untuk menambahkan **Plane** kita klik tombol **Add Object** pada panel **Scene**
 
 ![add plane](tutorial_images/05_add_plane.gif)
 
-Objek **Plane** telah ditambahkan pada panel **Scene** dan juga tampak pada panel **3D View**. Namun objek **Plane** masih diam tidak mengikuti gerakan wajah, ini akan kita perbaiki pada langkah selanjutnya.
+Objek **Plane** telah ditambahkan pada panel **Scene** dan juga tampak pada panel **View**. Namun objek **Plane** masih diam tidak mengikuti gerakan wajah, ini akan kita perbaiki pada langkah selanjutnya.
 
 ![plane not move](tutorial_images/06_plane_not_move.gif)
 
-## Mengatur Ulang Hierarki Objek
-Untuk membuat objek **Plane** bisa bergerak sesuai dengan gerakan wajah, kita perlu mengatur ulang ususan hierarki objek pada **Scene**. Kita perlu memindahkan **Plane** masuk kedalam **Face Tracker** agar dapat bergerak bersama dengan gerakan wajah.
+## Mengatur Ulang Susunan Objek
+Untuk membuat objek **Plane** bisa bergerak sesuai dengan gerakan wajah, kita perlu mengatur ulang susunan objek pada **Scene**. Kita perlu memindahkan **Plane** masuk kedalam **Face Tracker** agar dapat bergerak bersama dengan gerakan wajah.
 
 Untuk memindahkan, pada panel **Scene** drag dan drop objek **Plane** kedalam objek **Face Tracker**.
 
@@ -123,19 +123,19 @@ Dan hasilnya, objek **Plane** ikut bergerak sesuai gerakan wajah.
 ![plane moving](tutorial_images/08_plane_moving.gif)
 
 ## Mengatur Posisi Objek
-Jika kita perhatikan saat ini posisi objek **Plane** menutupi wajah, kita perlu mengatur posisi ini agar sesuai dengan yang kita inginkan. Ada beberapa cara yang bisa dilakukan yaitu dengan langsung menggeser objek melalui panel **3D View** atau dengan menggunakan input pada panel **Properties** yang terdapat disisi kanan layar.
+Jika kita perhatikan saat ini posisi objek **Plane** menutupi wajah, kita perlu mengatur posisi ini agar sesuai dengan yang kita inginkan. Ada beberapa cara yang bisa dilakukan yaitu dengan langsung menggeser objek melalui panel **View** atau dengan menggunakan input pada panel **Properties** yang terdapat disisi kanan layar.
 
-### Menggunakan Panel 3D View
-Memindah objek via **3D View** dapat dilakukan dengan menggeser menggunakan garis panah yang ada. Pertama untuk mempermudah menggeser objek, kita **Pause** kamera preview dengan menekan tombol pause disisi kiri layar.
+### Menggunakan Panel View
+Memindah objek via **View** dapat dilakukan dengan menggeser menggunakan garis panah yang ada. Pertama untuk mempermudah menggeser objek, kita **Pause** kamera preview dengan menekan tombol pause disisi kiri layar.
 
 ![pause](tutorial_images/09_pause_cam.gif)
 
-Dan untuk menggeser tinggal klik objek pada panel **Scene** dan pada **3D View** arahkan garis panah objek ke posisi yang diinginkan.
+Dan untuk menggeser tinggal klik objek pada panel **Scene** dan pada **View** arahkan garis panah objek ke posisi yang diinginkan.
 
 ![move arrow](tutorial_images/10_move_plane_arrow.gif)
 
 ### Menggunakan Panel Properties
-Untuk memindahkan objek dengan lebih persisi kita bisa menggunakan panel **Properties** . Sebagai contoh kita klik objek pada panel **Scene** dan pada panel **Properties** yang terdapat disisi kanan layar kita ubah nilai Position Y menjadi 0.1 sehingga posisi objek **Plane** berpindah ke dahi.
+Untuk memindahkan objek dengan lebih persisi kita bisa menggunakan panel **Properties**. Sebagai contoh kita klik objek pada panel **Scene** dan pada panel **Properties** yang terdapat disisi kanan layar kita ubah nilai Position Y menjadi 0.1 sehingga posisi objek **Plane** berpindah ke dahi.
 
 ![move properties](tutorial_images/11_move_plane_properties.gif)
 
@@ -147,9 +147,9 @@ Selanjutnya kita akan menambahkan **Material** agar objek dapat memiliki warna a
 
 Jika kita perhatikan objek **Plane** saat ini ditampilkan dalam warna kotak catur hitam-putih, itu artinya objek **Plane** belum memiliki data yang akan ditampilkan pada layar. Untuk memberikan tampilan pada objek **Plane** kita membutuhkan sebuah aset yang disebut **Material**.
 
-**Material** adalah aset yang akan mengontrol bagaimana sebuah objek akan ditampilkan pada layar. **Material** bisa menampilkan warna, gambar, animasi maupun video.
+**Material** adalah aset yang akan mengontrol bagaimana sebuah objek akan ditampilkan pada layar. **Material** bisa menampilkan warna, gambar, atau juga animasi.
 
-Untuk menambahkan **Material** klik tombol **Add Asset** pada panel **Assets** lalu pilih Material.
+Untuk menambahkan **Material** klik tombol **Add Asset** pada panel **Assets** lalu pilih **Material**.
 
 ![add material](tutorial_images/12_add_material.gif)
 
@@ -165,23 +165,25 @@ Setelah dipasangkan **Material**, objek **Plane** berubah warna menjadi putih, m
 
 ![white plane](tutorial_images/13a_white_material.gif)
 
-Pada bagian selanjutnya kita akan menambahkan fungsi mengambil gambar dari file image milik user dan memasangnya kedalam **Material** yang sudah dibuat, sehingga nanti user bisa membuat gambar Promo Card-nya sendiri.
+Pada bagian selanjutnya kita akan menambahkan fungsi mengambil gambar dari file milik user dan memasangnya kedalam **Material** yang sudah dibuat, sehingga nanti user bisa membuat gambar Promo Card-nya sendiri.
 
 ## Menambahkan fitur Gallery Texture
 
-**Gallery Texture** adalah fitur dari **Spark AR Studio** yang memungkinkan kita untuk menggunakan file dari Gallery user sebagai material. Untuk saat ini fitur ini hanya bisa digunakan untuk platform Instagram.
+**Gallery Texture** adalah fitur dari **Spark AR Studio** yang memungkinkan kita untuk menggunakan file dari Gallery user sebagai material. Untuk saat tutorial ini dibuat, fitur ini hanya bisa digunakan untuk platform Instagram.
 
 Untuk menambahkan **Gallery Texture** pada panel **Assets** klik **Add Asset** dan pilih **Gallery Texture**.
 
 ![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
 
-Apabila muncul sebuah **Warning Popup**, artinya kita perlu mengnonaktifkan Facebook pada Platform yang kita tuju. Klik tombol **Review Platform** lalu hilangkan tanda centang pada opsi Facebook, kemudian klik **Done** untuk menyelesaikan.
+Biasanya akan muncul sebuah **Warning Popup**, artinya kita perlu mengnonaktifkan Facebook pada Platform yang kita tuju. Klik tombol **Review Platform** lalu hilangkan tanda centang pada opsi Facebook, kemudian klik **Done** untuk menyelesaikan.
 
 ![add gallery texture](tutorial_images/15_capability_popup.gif)
 
-Selanjutnya kita bisa mengulangi kembali proses menambahkan **Gallery Texture**.
+Selanjutnya kita ulangi kembali proses menambahkan **Gallery Texture**.
 
-Setelah **Gallery Texture** ditambahkan, pada kamera preview akan muncul tombol **Add Media** yang nantinya bisa digunakan oleh user untuk memilih gambar yang dia punya.
+![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
+
+Setelah **Gallery Texture** ditambahkan, pada kamera preview akan muncul tombol **Add Media** yang nantinya bisa digunakan oleh user untuk memilih gambar yang dimiliki.
 
 ![add media button](tutorial_images/17_add_media_button.PNG)
 
@@ -209,7 +211,7 @@ Seperti nampak pada preview, objek **Plane** saat ini sudah memiliki texture def
 
 ## Mencoba Fitur Add Media
 
-Kita bisa coba klik tombol **Add Media** untuk mencoba mengubah Default image dengan file yang kita punya.
+Kita bisa coba klik tombol **Add Media** untuk mencoba mengubah default image dengan file yang kita punya.
 
 ![test the button](tutorial_images/20_test_add_media.gif)
 
@@ -235,13 +237,15 @@ Ada dua cara untuk melakukan testing pada device :
 
 Aplikasi Spark AR Player tersedia untuk Android dan IOS, bisa kamu download terlebih dahulu melalui link yang tersedia di https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-player-app.
 
-Setelah terinstall, hubungkan device menggunakan USB.
+Setelah terinstall, hubungkan device dengan PC menggunakan USB.
 
 Pada **Spark AR Studio** bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**.
 
 Tunggu hingga muncul nama device, jika sudah muncul klik tombol **Send**. **Filter** automatis dijalankan pada device.
 
 ![apps preview](tutorial_images/21_preview_apps.gif)
+
+Apabila nama device tidak muncul, coba ulangi hubungkan device dengan PC menggunakan USB.
 
 ### Testing menggunakan akun Instagram
 Pada **Spark AR Studio** bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**. Pada bagian **Send to App** klik **Send** pada **Instagram Camera**.
@@ -259,7 +263,6 @@ Sebenarnya kita juga bisa testing menggunakan akun Facebook (Facebook Camera), t
 Sebelum memulai proses penerbitan, kita perlu mempersiapkan Icon dan Video demo. 
 * Beberapa syarat icon yang diperlukan adalah :
    * File dalam format PNG atau JPG.
-   * Tanpa layer.
    * Tidak menggunakan *rounded corner*.
    * *Color space* yang digunakan sRGB.
    * Minimal berukuran 200 x 200 pixel.
@@ -280,7 +283,7 @@ Sebelum memulai proses penerbitan, kita perlu mempersiapkan Icon dan Video demo.
 
 ### Upload dan Export
 
-Setelah menyiapkan icon dan video demo, langkah selanjutnya adalah upload project ke Spark AR Hub untuk bisa diterbitkan.
+Setelah menyiapkan icon dan video demo, langkah selanjutnya adalah upload project ke **Spark AR Hub** untuk bisa diterbitkan.
 
 Pada **Spark AR Studio** pada bagian kiri bawah terdapat beberapa button, klik pada button **Upload and Export**. Kemudian klik **Upload** pada popup window yang muncul. Tunggu proses uploading hingga selesai.
 
@@ -305,9 +308,9 @@ Setelah selesai melakukan submisi, kita tinggal menunggu **Filter** yang kita bu
 
 Sebelum **Filter** bisa digunakan oleh masyarakat luas, **Filter** akan melalui proses **Review** dengan jangka waktu antara 1 hingga beberapa hari.
 
-Apabila **Filter** kita mendapatkan penolakan akan muncul notifikasi di Facebook dan Spark AR Hub, silahkan diperiksa alasan penolakannya dan lakukan perbaikan yang dibutuhkan. Setelah seluruh perbaikan dilakukan kita bisa melakukan submisi kembali.
+Apabila **Filter** kita mendapatkan penolakan akan muncul notifikasi di **Facebook** dan **Spark AR Hub**, silahkan diperiksa alasan penolakannya dan lakukan perbaikan yang dibutuhkan. Setelah seluruh perbaikan dilakukan kita bisa melakukan submisi kembali.
 
-Apabila **Filter** kita mendapat persetujuan juga akan muncul notifikasi di Facebook dan Spark AR Hub.
+Apabila **Filter** kita mendapat persetujuan juga akan muncul notifikasi di **Facebook** dan **Spark AR Hub**.
 
 ![notification](tutorial_images/28_approval_notif.png)
 
