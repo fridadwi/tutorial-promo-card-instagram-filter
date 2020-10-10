@@ -3,7 +3,7 @@
 
 ![pandemi](image/closed.gif)![sad](image/sad.gif) 
 
-Salah satu efek dari pandemi ini di Indonesia adalah banyak orang kehilangan sumber pendapatannya karena perekonomian yang menurun. Dan tidak sedikit dari mereka mencoba mencari kesempatan baru dengan mencoba membuka usaha kecil. Berbagai cara dilakukan untuk promosi usaha mereka dan tentunya sosial media menjadi platform favorit yang digunakan. Instagram sebagai salah satu sosial media dengan pengguna terbesar di Indonesia tentunya menjadi pilihan utama.
+2020 merupakan tahun yang cukup berat untuk semua orang diseluruh dunia, termasuk disini di Indonesia banyak orang kehilangan sumber pendapatannya karena sektor perekonomian yang menurun. Dan tidak sedikit dari mereka mencoba mencari kesempatan baru dengan membuka usaha kecil. Berbagai cara dilakukan untuk promosi usaha mereka dan tentunya sosial media menjadi platform favorit yang digunakan. Instagram sebagai salah satu sosial media dengan pengguna terbesar di Indonesia tentunya menjadi pilihan utama.
 
 Salah satu fitur Instagram yang sangat diminati untuk promosi adalah Instagram Story dengan berbagai Filter menariknya. Dalam artikel tutorial ini kita akan coba membuat sebuah Filter yang dapat digunakan untuk membantu promosi. Filter ini nantinya akan berbentuk flash card yang bisa dimodifikasi dengan gambar atau foto dari masing-masing user.
 
