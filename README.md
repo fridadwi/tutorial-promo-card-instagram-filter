@@ -3,7 +3,7 @@
 
 ![pandemi](image/closed.gif)![sad](image/sad.gif) 
 
-Dalam [laporan](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf) "laporan" ILO (International Labour Organisation) diprediksi setidaknya ada 490 juta pekerja kehilangan atau berkurang jam kerjanya dikarenakan pandemi Covid-19
+Dalam [laporan](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf) ILO (International Labour Organisation) diprediksi setidaknya ada 490 juta pekerja kehilangan atau berkurang jam kerjanya dikarenakan pandemi Covid-19.
 
 Termasuk disini di Indonesia banyak orang kehilangan sumber pendapatannya akibat pandemi ini. Namun tidak sedikit dari mereka mencoba mencari kesempatan baru dengan membuka usaha kecil. Berbagai cara dilakukan untuk promosi usaha mereka dan tentunya sosial media menjadi platform favorit yang digunakan. Instagram sebagai salah satu sosial media dengan pengguna terbesar di Indonesia tentunya menjadi pilihan utama.
 
