@@ -5,11 +5,11 @@
 
 Dalam [laporan](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf) ILO (International Labour Organisation) diprediksi setidaknya ada 490 juta pekerja kehilangan atau berkurang jam kerjanya dikarenakan pandemi Covid-19.
 
-Termasuk disini di Indonesia banyak orang kehilangan sumber pendapatannya akibat pandemi ini. Namun tidak sedikit dari mereka mencoba mencari kesempatan baru dengan membuka usaha kecil. Berbagai cara dilakukan untuk promosi usaha mereka dan tentunya sosial media menjadi platform favorit yang digunakan. Instagram sebagai salah satu sosial media dengan pengguna terbesar di Indonesia tentunya menjadi pilihan utama.
+Termasuk disini di Indonesia banyak orang kehilangan sumber pendapatannya akibat pandemi ini. Namun tidak sedikit yang mencoba mencari kesempatan baru dengan membuka usaha kecil. Berbagai cara dilakukan untuk mempromosikan usaha mereka dan tentunya sosial media menjadi platform favorit yang digunakan. Instagram sebagai salah satu sosial media dengan pengguna terbesar di Indonesia menjadi pilihan utama.
 
-Salah satu fitur Instagram yang sangat diminati untuk promosi adalah **Instagram Story** dengan berbagai **Filter** menariknya. Dalam tutorial ini kita akan coba membuat sebuah **Filter** yang dapat digunakan untuk membantu promosi. **Filter** ini nantinya akan berbentuk **Promo Card** yang bisa dimodifikasi dengan gambar atau foto dari masing-masing user.
+Salah satu fitur Instagram yang sangat diminati untuk promosi adalah **Instagram Story** dengan berbagai **Filter** menariknya. Dalam tutorial ini kita akan coba membuat sebuah **Filter** yang dapat digunakan untuk membantu promosi. **Filter** ini nantinya akan berbentuk **Promo Card** yang bisa dengan mudah dimodifikasi dengan gambar atau foto yang user siapkan sendiri untuk tiap program promosinya.
 
-Tutorial ini kami rancang untuk bisa diaplikasikan oleh user yang awam coding atau bahkan baru pertama kali menggunakan **Spark AR Studio**, sehingga semoga dapat membantu mereka yang sedang mencari kesempatan baru ditengah pandemi ini.
+Tutorial ini dirancang untuk bisa diaplikasikan oleh user yang awam coding atau bahkan belum pernah menggunakan **Spark AR Studio**, sehingga semoga dapat membantu mereka yang sedang mencari kesempatan baru ditengah pandemi ini.
 
 Beberapa hal yang akan dicakup dalam tutorial ini adalah :
 
@@ -17,7 +17,7 @@ Beberapa hal yang akan dicakup dalam tutorial ini adalah :
 * Membuat **Filter** sederhana berupa **Promo Card** dengan fitur **Gallery Texture**, dimana nantinya user dapat menggunakan gambar atau fotonya sendiri pada **Filter**.
 * Testing dan langkah-langkah untuk menerbitkan **Filter** yang telah kita buat 
 
-Diharapkan setelah mengikuti tutorial ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan oleh umum.
+Diharapkan setelah mengikuti tutorial ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan.
 
 
 # ![list](image/list.gif) Menginstall Spark AR Studio
