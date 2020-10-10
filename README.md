@@ -61,7 +61,7 @@ Ini adalah akhir dari bagian pertama dari total 3 bagian tutorial ini. Kamu suda
 
 Pada bagian ini kita akan mulai untuk membuat project Filter.
 
-![start](image/start.gif) 
+![start project](image/startproject.gif) 
 
 Silahkan buka Spark AR Studio yang sudah di install, tampilan awal dari Spark AR Studio adalah list beberapa template yang disediakan, dan terdapat beberapa tutorial yang bisa kamu ikuti.
 
