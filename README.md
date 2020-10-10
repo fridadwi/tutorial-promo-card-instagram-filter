@@ -203,7 +203,11 @@ Kita bisa coba klik tombol **Add Media** untuk mencoba mengubah Default image de
 
 tombol inilah yang nantinya memungkinkan user menggunakan file mereka sendiri pada Filter yang kita buat.
 
-Filter yang kita buat sudah hampir jadi, langkah selanjutnya adalah mencobanya pada device secara langsung untuk memastikan tidak ada kendala dalam penggunaannya. Hal ini akan kita lakukan pada bagian selanjutnya.
+Selamat! Filter yang kita buat sudah hampir jadi, langkah selanjutnya adalah mencobanya pada device secara langsung untuk memastikan tidak ada kendala dalam penggunaannya. Hal ini akan kita lakukan pada bagian selanjutnya.
+
+# ![goodjob](image/goodjob.gif) 
+
+
 
 # ![list](image/list.gif) Testing Filter Dan Menerbitkan Filter
 
@@ -303,7 +307,11 @@ Atau bisa diakses melalui **Tab Filter** pada akun **Instagram** kita, tab yang 
 
 ![instagram filter tab](tutorial_images/27_filter_on_instagram.png)
 
-Dengan mendapat approval artinya Filter yang kita buat sudah bisa digunakan oleh publik untuk membuat **Instagram Story**, selamat!
+Dengan mendapat approval artinya Filter yang kita buat sudah bisa digunakan oleh publik untuk membuat **Instagram Story**.
+
+Selamat! kamu sudah menyelesaikan seluruh langkah-langkah untuk membuat Filter menggunakan Spark AR Studio
+ 
+# ![goodjob](image/goodjob.gif) 
 
 
 # Kesimpulan
