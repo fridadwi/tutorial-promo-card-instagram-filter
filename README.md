@@ -1,6 +1,8 @@
 
 # Overview
 
+![pandemi](image/closed.gif)![sad](image/sad.gif) 
+
 Salah satu efek dari pandemi ini di Indonesia adalah banyak orang kehilangan sumber pendapatannya karena perekonomian yang menurun. Dan tidak sedikit dari mereka mencoba mencari kesempatan baru dengan mencoba membuka usaha kecil. Berbagai cara dilakukan untuk promosi usaha mereka dan tentunya sosial media menjadi platform favorit yang digunakan. Instagram sebagai salah satu sosial media dengan pengguna terbesar di Indonesia tentunya menjadi pilihan utama.
 
 Salah satu fitur Instagram yang sangat diminati untuk promosi adalah Instagram Story dengan berbagai Filter menariknya. Dalam artikel tutorial ini kita akan coba membuat sebuah Filter yang dapat digunakan untuk membantu promosi. Filter ini nantinya akan berbentuk flash card yang bisa dimodifikasi dengan gambar atau foto dari masing-masing user.
@@ -19,6 +21,8 @@ Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendi
 # ![list](image/list.gif) Menginstall Spark AR Studio
 
 Spark AR Studio adalah platform augmented reality untuk Mac & Windows yang memungkinkan kita membuat efek AR untuk kamera seluler dengan mudah.
+
+![prepare](image/prepare.gif) 
 
 ## Persyaratan
 Untuk menginstall Spark AR Studio ada beberapa hal yang perlu kita persiapkan.
@@ -49,7 +53,7 @@ Hal yang akan muncul saat kita pertama kali membuka Spark AR Studio adalah popup
 Untuk Logout Spark AR Studio dari akun yang digunakan saat ini, bisa dilakukan setelah membuka project dengan cara : klik **File** lalu pilih **Logout**.
 
 Ini adalah akhir dari bagian pertama dari total 3 bagian tutorial ini. Kamu sudah berhasil menyiapkan Spark AR Studio untuk membuat Filter di pada bagian kedua tutorial ini. 
-# ![goodjob](image/goodjob.gif) 
+![goodjob](image/goodjob.gif) 
 
 # ![list](image/list.gif) Membuat Project Baru
 
@@ -205,7 +209,7 @@ tombol inilah yang nantinya memungkinkan user menggunakan file mereka sendiri pa
 
 Selamat! Filter yang kita buat sudah hampir jadi, langkah selanjutnya adalah mencobanya pada device secara langsung untuk memastikan tidak ada kendala dalam penggunaannya. Hal ini akan kita lakukan pada bagian selanjutnya.
 
-# ![goodjob](image/goodjob.gif) 
+![goodjob](image/goodjob.gif) 
 
 
 
@@ -311,7 +315,7 @@ Dengan mendapat approval artinya Filter yang kita buat sudah bisa digunakan oleh
 
 Selamat! kamu sudah menyelesaikan seluruh langkah-langkah untuk membuat Filter menggunakan Spark AR Studio
  
-# ![goodjob](image/goodjob.gif) 
+![goodjob](image/goodjob.gif) 
 
 
 # Kesimpulan
