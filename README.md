@@ -5,15 +5,15 @@
 
 2020 merupakan tahun yang cukup berat untuk semua orang diseluruh dunia, termasuk disini di Indonesia banyak orang kehilangan sumber pendapatannya karena sektor perekonomian yang menurun. Dan tidak sedikit dari mereka mencoba mencari kesempatan baru dengan membuka usaha kecil. Berbagai cara dilakukan untuk promosi usaha mereka dan tentunya sosial media menjadi platform favorit yang digunakan. Instagram sebagai salah satu sosial media dengan pengguna terbesar di Indonesia tentunya menjadi pilihan utama.
 
-Salah satu fitur Instagram yang sangat diminati untuk promosi adalah Instagram Story dengan berbagai Filter menariknya. Dalam artikel tutorial ini kita akan coba membuat sebuah Filter yang dapat digunakan untuk membantu promosi. Filter ini nantinya akan berbentuk Promo Card yang bisa dimodifikasi dengan gambar atau foto dari masing-masing user.
+Salah satu fitur Instagram yang sangat diminati untuk promosi adalah **Instagram Story** dengan berbagai **Filter** menariknya. Dalam artikel tutorial ini kita akan coba membuat sebuah **Filter** yang dapat digunakan untuk membantu promosi. **Filter** ini nantinya akan berbentuk **Promo Card** yang bisa dimodifikasi dengan gambar atau foto dari masing-masing user.
 
 Artikel ini kami rancang untuk bisa diaplikasikan oleh user yang awam coding atau bahkan baru pertama kali menggunakan **Spark AR Studio**, sehingga semoga dapat membantu mereka yang sedang mencari kesempatan baru ditengah pandemi ini.
 
 Beberapa hal yang akan dicakup dalam artikel ini adalah :
 
 * Persiapan dan cara menginstall **Spark AR Studio**
-* Membuat filter sederhana berupa Promo Card dengan fitur Gallery Texture, dimana nantinya user dapat menggunakan gambar atau fotonya sendiri pada Filter.
-* Testing dan langkah-langkah untuk menerbitkan Filter yang telah kita buat 
+* Membuat **Filter** sederhana berupa **Promo Card** dengan fitur **Gallery Texture**, dimana nantinya user dapat menggunakan gambar atau fotonya sendiri pada **Filter**.
+* Testing dan langkah-langkah untuk menerbitkan **Filter** yang telah kita buat 
 
 Diharapkan setelah mengikuti artikel ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan oleh umum.
 
@@ -35,9 +35,9 @@ Untuk menginstall **Spark AR Studio** ada beberapa hal yang perlu kita persiapka
 Spesifikasi lebih detail dapat dilihat pada laman https://sparkar.facebook.com/ar-studio/learn/downloads/#system-requirements
 
 ### Akun
-Untuk menggunakan **Spark AR Studio** dan mempublikasikan Filter yang akan kita buat, dibutuhkan beberapa akun yaitu :
+Untuk menggunakan **Spark AR Studio** dan mempublikasikan **Filter** yang akan kita buat, dibutuhkan beberapa akun yaitu :
 * Akun Facebook, untuk login dan menggunakan **Spark AR Studio** serta mengorganisir project yang akan kita terbitkan.
-* Akun Instagram yang terkoneksi dengan akun Facebook tadi, untuk testing dan menerbitkan Filter yang kita buat.
+* Akun Instagram yang terkoneksi dengan akun Facebook tadi, untuk testing dan menerbitkan **Filter** yang kita buat.
 
 ### Download Installer
 Apabila seluruh persyaratan telah terpenuhi sekarang kita bisa mulai install **Spark AR Studio** dengan mengunduh versi terbarunya di
@@ -53,7 +53,7 @@ Hal yang akan muncul saat kita pertama kali membuka **Spark AR Studio** adalah p
 
 Untuk logout **Spark AR Studio** dari akun yang digunakan saat ini, bisa dilakukan setelah membuka project dengan cara : klik **File** lalu pilih **Logout**.
 
-Ini adalah akhir dari bagian pertama dari total 3 bagian tutorial ini. Kamu sudah berhasil menyiapkan **Spark AR Studio** untuk membuat Filter di pada bagian kedua tutorial ini. 
+Ini adalah akhir dari bagian pertama dari total 3 bagian tutorial ini. Kamu sudah berhasil menyiapkan **Spark AR Studio** untuk membuat **Filter** di pada bagian kedua tutorial ini. 
 
 ![goodjob](image/goodjob.gif) 
 
@@ -89,7 +89,7 @@ Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita ak
 - D adalah panel **Properties**. Pada sisi kanan tersedia panel **Properties** yang bisa digunakan untuk mengatur setting dari object yang kita gunakan.
 
 ## Menambahkan Face Tracker
-Mendeteksi wajah adalah hal utama yang kita butuhkan untuk membuat filter ini, dengan menggunakan **Spark AR Studio** fitur ini sangat mudah kita buat karena **Spark AR Studio** telah menyediakan beberapa jenis Tracker diantaranya Face Tracker.
+Mendeteksi wajah adalah hal utama yang kita butuhkan untuk membuat **Filter** ini, dengan menggunakan **Spark AR Studio** fitur ini sangat mudah kita buat karena **Spark AR Studio** telah menyediakan beberapa jenis Tracker diantaranya Face Tracker.
 
 Untuk menggunakan Face Tracker sangatlah mudah, pada panel **Scene** klik tombol **Add Object** yang berada di sisi kanan bawah lalu pilih **Face Tracker** kemudian klik **Insert**.
 
@@ -211,9 +211,9 @@ Kita bisa coba klik tombol **Add Media** untuk mencoba mengubah Default image de
 
 ![test the button](tutorial_images/20_test_add_media.gif)
 
-tombol inilah yang nantinya memungkinkan user menggunakan file mereka sendiri pada Filter yang kita buat.
+tombol inilah yang nantinya memungkinkan user menggunakan file mereka sendiri pada **Filter** yang kita buat.
 
-Selamat! Filter yang kita buat sudah hampir jadi, langkah selanjutnya adalah mencobanya pada device secara langsung untuk memastikan tidak ada kendala dalam penggunaannya. Hal ini akan kita lakukan pada bagian selanjutnya.
+Selamat! **Filter** yang kita buat sudah hampir jadi, langkah selanjutnya adalah mencobanya pada device secara langsung untuk memastikan tidak ada kendala dalam penggunaannya. Hal ini akan kita lakukan pada bagian selanjutnya.
 
 ![goodjob](image/goodjob.gif) 
 
@@ -221,7 +221,7 @@ Selamat! Filter yang kita buat sudah hampir jadi, langkah selanjutnya adalah men
 
 # ![list](image/list.gif) Testing Filter Dan Menerbitkan Filter
 
-Testing sebelum menerbitkan Filter adalah salah satu langkah paling penting untuk dilakukan untuk memastikan Filter yang kita buat berjalan dengan baik dan sesuai dengan apa yang kita rencanakan.
+Testing sebelum menerbitkan **Filter** adalah salah satu langkah paling penting untuk dilakukan untuk memastikan **Filter** yang kita buat berjalan dengan baik dan sesuai dengan apa yang kita rencanakan.
 
 ## Testing Filter Pada Device
 
@@ -237,7 +237,7 @@ Setelah terinstall, hubungkan device menggunakan USB.
 
 Pada **Spark AR Studio** bagian kiri bawah terdapat beberapa button, klik pada button **Test On Device**.
 
-Tunggu hingga muncul nama device, jika sudah muncul klik tombol **Send**. Filter automatis dijalankan pada device.
+Tunggu hingga muncul nama device, jika sudah muncul klik tombol **Send**. **Filter** automatis dijalankan pada device.
 
 ![apps preview](tutorial_images/21_preview_apps.gif)
 
@@ -246,7 +246,7 @@ Pada **Spark AR Studio** bagian kiri bawah terdapat beberapa button, klik pada b
 
 ![instagram preview](tutorial_images/22_preview_instagram.gif)
 
-Apabila telah terkirim periksa Instagram pada devicemu, akan muncul notifikasi yang bisa kamu tap untuk mencoba Filter yang sudah kamu buat.
+Apabila telah terkirim periksa Instagram pada devicemu, akan muncul notifikasi yang bisa kamu tap untuk mencoba **Filter** yang sudah kamu buat.
 
 ![notification](tutorial_images/23_notification.png)
 
@@ -290,26 +290,26 @@ Setelah proses upload selesai kita akan diarahkan ke laman **Spark AR Hub**.
 
 Inputlah informasi dan file-file yang dibutuhkan. Beberapa hal yang perlu diperhatikan antara lain :
 * Pada **Platform** hanya aktifkan **Instagram**, karena fitur **Gallery Texture** tidak tersedia di Facebook.
-* Pada **Categories** pilihlah kategori yang relevan dengan Filter yang kita buat, untuk project ini bisa dipilih **Appearence and Selfies**.
+* Pada **Categories** pilihlah kategori yang relevan dengan **Filter** yang kita buat, untuk project ini bisa dipilih **Appearence and Selfies**.
 * Pada **Publication date** bisa dipilih apakah akan segera dirilis ketika mendapat persetujuan atau ingin dijadwalkan di waktu yang lain.
 
 ![spark ar hub completed](tutorial_images/25_spark_ar_hub_complete.png)
 
 Setelah seluruh form terisi, untuk melanjutkan klik tombol **Submit** yang berada di sisi kanan atas laman **Spark AR Hub**. Apabila belum berhasil menyelesaikan pengisian form bisa klik tombol **Save** dan dilanjutkan pada kesempatan lain dengan mengakses laman https://www.facebook.com/sparkarhub/effects/.
 
-Setelah selesai melakukan submisi, kita tinggal menunggu Filter yang kita buat mendapat approval.
+Setelah selesai melakukan submisi, kita tinggal menunggu **Filter** yang kita buat mendapat approval.
 
 ## Approval
 
-Sebelum Filter bisa digunakan oleh masyarakat luas, Filter akan melalui proses **Review** dengan jangka waktu antara 1 hingga beberapa hari.
+Sebelum **Filter** bisa digunakan oleh masyarakat luas, **Filter** akan melalui proses **Review** dengan jangka waktu antara 1 hingga beberapa hari.
 
-Apabila Filter kita mendapatkan penolakan akan muncul notifikasi di Facebook dan Spark AR Hub, silahkan diperiksa alasan penolakannya dan lakukan perbaikan yang dibutuhkan. Setelah seluruh perbaikan dilakukan kita bisa melakukan submisi kembali.
+Apabila **Filter** kita mendapatkan penolakan akan muncul notifikasi di Facebook dan Spark AR Hub, silahkan diperiksa alasan penolakannya dan lakukan perbaikan yang dibutuhkan. Setelah seluruh perbaikan dilakukan kita bisa melakukan submisi kembali.
 
-Apabila Filter kita mendapat persetujuan juga akan muncul notifikasi di Facebook dan Spark AR Hub.
+Apabila **Filter** kita mendapat persetujuan juga akan muncul notifikasi di Facebook dan Spark AR Hub.
 
 ![notification](tutorial_images/28_approval_notif.png)
 
-Untuk menggunakan Filter yang sudah mendapat persetujuan, kita bisa dapatkan link **Filter** pada **Spark AR Hub**.
+Untuk menggunakan **Filter** yang sudah mendapat persetujuan, kita bisa dapatkan link **Filter** pada **Spark AR Hub**.
 
 ![spark ar hub link](tutorial_images/26_filter_link.png)
 
@@ -317,9 +317,9 @@ Atau bisa diakses melalui **Tab Filter** pada akun **Instagram** kita, tab yang 
 
 ![instagram filter tab](tutorial_images/27_filter_on_instagram.png)
 
-Dengan mendapat approval artinya Filter yang kita buat sudah bisa digunakan oleh publik untuk membuat **Instagram Story**.
+Dengan mendapat approval artinya **Filter** yang kita buat sudah bisa digunakan oleh publik untuk membuat **Instagram Story**.
 
-Selamat! kamu sudah menyelesaikan seluruh langkah-langkah untuk membuat Filter menggunakan **Spark AR Studio**.
+Selamat! kamu sudah menyelesaikan seluruh langkah-langkah untuk membuat **Filter** menggunakan **Spark AR Studio**.
  
 ![goodjob](image/goodjob.gif) 
 
