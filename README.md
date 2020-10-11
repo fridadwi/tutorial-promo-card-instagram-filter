@@ -203,7 +203,7 @@ Pada langkah selanjutnya kita akan memasang sebuah gambar default yang akan dita
 
 Klik **Gallery Texture** pada panel **Assets**, pada panel **Properties** yang terdapat disisi kanan layar berikan centang pada **Holding Texture** dan klik **Choose File**.
 
-Pilihlah file gambar yang akan kamu gunakan, sebagai contoh kami menggunakan file yang tersedia pada github kami https://github.com/fridadwi/supreme-pancake/
+Pilihlah file gambar yang akan kamu gunakan. Kamu juga bisa menggunakan gambar yang kamu download diawal tutorial ini.
 
 ![holding texture](tutorial_images/19_add_holding_image.gif)
 
@@ -225,7 +225,7 @@ Selamat! **Filter** yang kita buat sudah hampir jadi, langkah selanjutnya adalah
 
 # ![list](image/list.gif) Testing Filter Dan Menerbitkan Filter
 
-Testing sebelum menerbitkan **Filter** adalah salah satu langkah paling penting untuk dilakukan untuk memastikan **Filter** yang kita buat berjalan dengan baik dan sesuai dengan apa yang kita rencanakan.
+Testing sebelum menerbitkan **Filter** adalah salah satu langkah paling penting untuk memastikan **Filter** yang kita buat berjalan dengan baik dan sesuai dengan apa yang kita rencanakan.
 
 ## Testing Filter Pada Device
 
@@ -235,7 +235,7 @@ Ada dua cara untuk melakukan testing pada device :
 
 ### Testing menggunakan Spark AR Player
 
-Aplikasi Spark AR Player tersedia untuk Android dan IOS, bisa kamu download terlebih dahulu melalui link yang tersedia di https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-player-app.
+Aplikasi **Spark AR Player** tersedia untuk Android dan IOS, bisa kamu download terlebih dahulu melalui link yang tersedia di https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-player-app.
 
 Setelah terinstall, hubungkan device dengan PC menggunakan USB.
 
