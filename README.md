@@ -171,7 +171,7 @@ Pada bagian selanjutnya kita akan menambahkan fungsi mengambil gambar dari file 
 
 **Gallery Texture** adalah fitur dari **Spark AR Studio** yang memungkinkan kita untuk menggunakan file dari Gallery user sebagai material. Untuk saat tutorial ini dibuat, fitur ini hanya bisa digunakan untuk platform Instagram.
 
-Untuk menambahkan **Gallery Texture** pada panel **Assets** klik **Add Asset** dan pilih **Gallery Texture**.
+Untuk menambahkan **Gallery Texture**, pada panel **Assets** klik **Add Asset** dan pilih **Gallery Texture**.
 
 ![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
 
