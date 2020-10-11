@@ -328,5 +328,15 @@ Selamat! kamu sudah menyelesaikan seluruh langkah-langkah untuk membuat **Filter
  
 ![goodjob](image/goodjob.gif) 
 
+# Apa selanjutnya?
+Jika kamu tertarik mengembangkan Instagram Filter lebih dalam, kamu bisa mengunjungi tautan berikut untuk mencoba tutorial yang menarik lainnya.
+
+- link
+- link
+
+Kamu juga bisa bergabung dengan Grup Creator untuk berdiskusi dan berbagi informasi pengembangan Filter dengan Spark AR Studio
+
 
 # Kesimpulan
+
+Membuat Instagram Filter dapat dengan mudah dilakukan oleh siapapun dengan bantuan **Spark AR Studio** dengan semua fitur-fiturnya. Banyak hal yang bisa dikembangkan dan semoga bisa menjadi peluang baru di masa pandemi ini.
