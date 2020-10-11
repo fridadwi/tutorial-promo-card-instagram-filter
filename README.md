@@ -31,7 +31,7 @@ Untuk menginstall **Spark AR Studio** ada beberapa hal yang perlu kita persiapka
 
 ### Hardware
 **Spark AR Studio** membutuhkan PC dengan spesifikasi minimum seperti berikut
-* Sistem Operasi : Minimum Windows 10 (64 bit) atau MacOS 10.14+
+* Sistem Operasi minimum Windows 10 (64 bit) atau MacOS 10.14+
 * RAM minimum 4GB
 
 Spesifikasi lebih detail dapat dilihat pada laman https://sparkar.facebook.com/ar-studio/learn/downloads/#system-requirements
