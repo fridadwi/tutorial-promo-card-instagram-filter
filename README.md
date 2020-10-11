@@ -9,15 +9,15 @@ Termasuk disini di Indonesia banyak orang kehilangan sumber pendapatannya akibat
 
 Salah satu fitur Instagram yang sangat diminati untuk promosi adalah **Instagram Story** dengan berbagai **Filter** menariknya. Dalam tutorial ini kita akan coba membuat sebuah **Filter** yang dapat digunakan untuk membantu promosi. **Filter** ini nantinya akan berbentuk **Promo Card** yang bisa dengan mudah dimodifikasi dengan gambar atau foto yang user siapkan sendiri untuk tiap program promosinya.
 
-Tutorial ini kami coba dirancang untuk bisa diaplikasikan oleh user yang awam coding atau bahkan belum pernah menggunakan **Spark AR Studio**, sehingga semoga dapat membantu mereka yang sedang mencari kesempatan baru ditengah pandemi ini.
+Tutorial ini kami coba rancang untuk bisa diaplikasikan oleh user yang awam coding atau bahkan belum pernah menggunakan **Spark AR Studio**, sehingga semoga dapat membantu mereka yang sedang mencari kesempatan baru ditengah pandemi ini.
 
 Beberapa hal yang akan dicakup dalam tutorial ini adalah :
 
 * Persiapan dan cara menginstall **Spark AR Studio**
 * Membuat **Filter** sederhana berupa **Promo Card** dengan fitur **Gallery Texture**, dimana nantinya user dapat menggunakan gambar atau fotonya sendiri pada **Filter**.
-* Testing dan langkah-langkah untuk menerbitkan **Filter** yang telah kita buat 
+* Testing dan langkah-langkah untuk menerbitkan **Filter** yang telah kita buat.
 
-Diharapkan setelah mengikuti tutorial ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya untuk digunakan.
+Diharapkan setelah mengikuti tutorial ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya.
 
 
 # ![list](image/list.gif) Menginstall Spark AR Studio
