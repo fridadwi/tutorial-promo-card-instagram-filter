@@ -97,7 +97,7 @@ Untuk menggunakan Face Tracker sangatlah mudah, pada panel **Scene** klik tombol
 
 ![add face tracker](tutorial_images/04_add_facetracker.gif)
 
-Objek **Face Tracker** akan automatis ditambahkan pada hierarki **Scene**.
+Objek **Face Tracker** akan automatis ditambahkan pada daftar objek pada panel **Scene**.
 Jika diinginkan kamu juga dapat mengganti nama objek yang sudah kita buat dengan klik dua kali atau dengan klik kanan lalu pilih **Rename**.
 
 ## Menambahkan Objek Plane
