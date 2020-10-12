@@ -57,7 +57,7 @@ Untuk logout **Spark AR Studio** dari akun yang digunakan saat ini, bisa dilakuk
 
 Ini adalah akhir bagian pertama dari total 3 bagian tutorial. Kamu sudah berhasil menyiapkan **Spark AR Studio** untuk membuat **Filter** yang akan dibahas pada bagian kedua tutorial ini. 
 
-![goodjob](tutorial_images/00_mantap.gif) 
+![goodjob](tutorial_images/00_mantap.png) 
 
 # ![list](image/list.gif) Membuat Project Baru
 
