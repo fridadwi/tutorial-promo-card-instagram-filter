@@ -1,7 +1,7 @@
 
 # Overview
 
-![pandemi](tutorial_images/00_sad.gif)!
+![pandemi](tutorial_images/00_sad.gif)
 
 Dalam [laporan](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf) ILO (International Labour Organisation) diprediksi setidaknya ada 490 juta pekerja kehilangan atau berkurang jam kerjanya dikarenakan pandemi Covid-19.
 
@@ -24,7 +24,7 @@ Diharapkan setelah mengikuti tutorial ini kamu sudah bisa membuat filter mu send
 
 **Spark AR Studio** adalah platform augmented reality untuk Mac & Windows yang memungkinkan kita membuat efek AR untuk kamera seluler dengan mudah. Pada bagian ini kita akan mempersiapkan hal-hal yang dibutuhkan untuk penggunaan **Spark AR Studio** 
 
-![prepare](image/prepare.gif) 
+![prepare](tutorial_images/00_prepare.gif) 
 
 ## Persyaratan
 Untuk menginstall **Spark AR Studio** ada beberapa hal yang perlu kita persiapkan.
@@ -57,13 +57,13 @@ Untuk logout **Spark AR Studio** dari akun yang digunakan saat ini, bisa dilakuk
 
 Ini adalah akhir bagian pertama dari total 3 bagian tutorial. Kamu sudah berhasil menyiapkan **Spark AR Studio** untuk membuat **Filter** yang akan dibahas pada bagian kedua tutorial ini. 
 
-![goodjob](image/goodjob.gif) 
+![goodjob](tutorial_images/00_mantap.gif) 
 
 # ![list](image/list.gif) Membuat Project Baru
 
 Pada bagian ini kita akan mulai untuk membuat project Filter.
 
-![start project](image/startproject.gif) 
+![start project](tutorial_images/00_startproject.gif) 
 
 Silahkan buka **Spark AR Studio** yang sudah di install, tampilan awal dari **Spark AR Studio** adalah list beberapa template yang disediakan, dan terdapat beberapa tutorial yang nanti bisa kamu coba-coba sendiri.
 
@@ -219,7 +219,7 @@ tombol inilah yang nantinya memungkinkan user menggunakan file mereka sendiri pa
 
 Selamat! **Filter** yang kita buat sudah hampir jadi, langkah selanjutnya adalah mencobanya pada device secara langsung untuk memastikan tidak ada kendala dalam penggunaannya. Hal ini akan kita lakukan pada bagian selanjutnya.
 
-![goodjob](image/goodjob.gif) 
+![goodjob](tutorial_images/00_mantap.png) 
 
 
 
@@ -326,7 +326,7 @@ Dengan mendapat approval artinya **Filter** yang kita buat sudah bisa digunakan 
 
 Selamat! kamu sudah menyelesaikan seluruh langkah-langkah untuk membuat **Filter** menggunakan **Spark AR Studio**.
  
-![goodjob](image/goodjob.gif) 
+![goodjob](tutorial_images/00_berhasil.png) 
 
 # Apa selanjutnya?
 Jika kamu tertarik mengembangkan Instagram Filter lebih dalam, kamu bisa mengunjungi tautan berikut untuk mencoba tutorial yang menarik lainnya.
