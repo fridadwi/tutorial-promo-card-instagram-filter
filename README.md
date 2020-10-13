@@ -343,9 +343,9 @@ Membuat Instagram Filter dapat dengan mudah dilakukan oleh siapapun dengan bantu
 
 
 # Kredit
-Tutorial ini terinspirasi dari :
-- https://sparkar.facebook.com/ar-studio/learn/articles/textures-and-materials/gallery-texture-and-gallery-picker
-
 Pembuat :
 - Frida Dwi (Tutorial) https://www.instagram.com/ultrmnbstrd/
 - Estu Galih (2D Artist) https://www.instagram.com/nekozilla/
+
+Tutorial ini terinspirasi dari :
+- https://sparkar.facebook.com/ar-studio/learn/articles/textures-and-materials/gallery-texture-and-gallery-picker
