@@ -24,7 +24,7 @@ Diharapkan setelah mengikuti tutorial ini kamu sudah bisa membuat filter mu send
 
 **Spark AR Studio** adalah platform augmented reality untuk Mac & Windows yang memungkinkan kita membuat efek AR untuk kamera seluler dengan mudah. Pada bagian ini kita akan mempersiapkan hal-hal yang dibutuhkan untuk penggunaan **Spark AR Studio** 
 
-![prepare](tutorial_images/00_prepare.gif) 
+![prepare](tutorial_images/00_yuk.gif) 
 
 ## Persyaratan
 Untuk menginstall **Spark AR Studio** ada beberapa hal yang perlu kita persiapkan.
