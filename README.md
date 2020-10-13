@@ -329,14 +329,23 @@ Selamat! kamu sudah menyelesaikan seluruh langkah-langkah untuk membuat **Filter
 ![goodjob](tutorial_images/00_berhasil.png) 
 
 # Apa selanjutnya?
-Jika kamu tertarik mengembangkan Instagram Filter lebih dalam, kamu bisa mengunjungi tautan berikut untuk mencoba tutorial yang menarik lainnya.
+Jika kamu tertarik mengembangkan Instagram Filter lebih dalam, kamu bisa mengunjungi tautan berikut untuk mencoba tutorial menarik atau mendapatkan informasi lainnya.
 
-- link
-- link
+- https://sparkar.facebook.com/ar-studio/learn/
+- https://www.facebook.com/SparkARcreators/
 
-Kamu juga bisa bergabung dengan Grup Creator untuk berdiskusi dan berbagi informasi pengembangan Filter dengan Spark AR Studio
+Kamu juga bisa bergabung dengan **[Spark AR Community](https://www.facebook.com/groups/SparkARcommunity "Spark AR Community")** untuk berdiskusi dan berbagi informasi pengembangan Filter dengan Spark AR Studio
 
 
 # Kesimpulan
 
 Membuat Instagram Filter dapat dengan mudah dilakukan oleh siapapun dengan bantuan **Spark AR Studio** dengan semua fitur-fiturnya. Banyak hal yang bisa dikembangkan dan semoga bisa menjadi peluang baru di masa pandemi ini.
+
+
+# Kredit
+Tutorial ini terinspirasi dari :
+- https://sparkar.facebook.com/ar-studio/learn/articles/textures-and-materials/gallery-texture-and-gallery-picker
+
+Pembuat :
+- Frida Dwi (Tutorial) https://www.instagram.com/ultrmnbstrd/
+- Estu Galih (2D Artist) https://www.instagram.com/nekozilla/
