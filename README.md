@@ -87,7 +87,7 @@ Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita ak
 
 - A adalah panel **Scene**. Panel **Scene** berguna untuk mengatur urutan objek-objek yang akan kita gunakan. Secara default sudah disiapkan Ambient Light dan Directional Light. Untuk project ini akan kita abaikan saja kedua objek light tersebut.
 - B adalah panel **Assets**. Panel **Assets** akan kita gunakan untuk mengorganisir file yang kita gunakan pada project, seperti Image dan Material.
-- C adalah panel **View**. Pada bagian tengah akan menjadi workarea utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada project kita. Disediakan juga sebuah window **Simulator** sebagai contoh
+- C adalah panel **View**. Pada bagian tengah akan menjadi workarea utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada project kita. Disediakan juga sebuah window **Simulator** sebagai contoh bagaimana tampilan di device.
 - D adalah panel **Properties**. Pada sisi kanan tersedia panel **Properties** yang bisa digunakan untuk mengatur setting dari object yang kita gunakan.
 
 ## Menambahkan Face Tracker
