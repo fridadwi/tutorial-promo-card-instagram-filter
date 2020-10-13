@@ -20,7 +20,7 @@ Beberapa hal yang akan dicakup dalam tutorial ini adalah :
 Diharapkan setelah mengikuti tutorial ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya.
 
 
-# ![list](image/list.gif) Menginstall Spark AR Studio
+# ![list](tutorial_images/00_list.gif) Menginstall Spark AR Studio
 
 **Spark AR Studio** adalah platform augmented reality untuk Mac & Windows yang memungkinkan kita membuat efek AR untuk kamera seluler dengan mudah. Pada bagian ini kita akan mempersiapkan hal-hal yang dibutuhkan untuk penggunaan **Spark AR Studio** 
 
@@ -59,7 +59,7 @@ Ini adalah akhir bagian pertama dari total 3 bagian tutorial. Kamu sudah berhasi
 
 ![goodjob](tutorial_images/00_mantap.png) 
 
-# ![list](image/list.gif) Membuat Project Baru
+# ![list](tutorial_images/00_list.gif) Membuat Project Baru
 
 Pada bagian ini kita akan mulai untuk membuat project Filter.
 
@@ -223,7 +223,7 @@ Selamat! **Filter** yang kita buat sudah hampir jadi, langkah selanjutnya adalah
 
 
 
-# ![list](image/list.gif) Testing Filter Dan Menerbitkan Filter
+# ![list](tutorial_images/00_list.gif) Testing Filter Dan Menerbitkan Filter
 
 Testing sebelum menerbitkan **Filter** adalah salah satu langkah paling penting untuk memastikan **Filter** yang kita buat berjalan dengan baik dan sesuai dengan apa yang kita rencanakan.
 
