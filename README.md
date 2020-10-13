@@ -87,7 +87,7 @@ Akan ditampilkan popup tipe project yang bisa kamu buat. Karena saat ini kita ak
 
 - A adalah panel **Scene**. Panel **Scene** berguna untuk mengatur urutan objek-objek yang akan kita gunakan. Secara default sudah disiapkan Ambient Light dan Directional Light. Untuk project ini akan kita abaikan saja kedua objek light tersebut.
 - B adalah panel **Assets**. Panel **Assets** akan kita gunakan untuk mengorganisir file yang kita gunakan pada project, seperti Image dan Material.
-- C adalah panel **View**. Pada bagian tengah akan menjadi workarea utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada project kita.
+- C adalah panel **View**. Pada bagian tengah akan menjadi workarea utama dimana kita bisa melihat dan mengedit secara langsung posisi dan ukuran objek-objek pada project kita. Disediakan juga sebuah window **Simulator** sebagai contoh
 - D adalah panel **Properties**. Pada sisi kanan tersedia panel **Properties** yang bisa digunakan untuk mengatur setting dari object yang kita gunakan.
 
 ## Menambahkan Face Tracker
@@ -183,7 +183,7 @@ Selanjutnya kita ulangi kembali proses menambahkan **Gallery Texture**.
 
 ![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
 
-Setelah **Gallery Texture** ditambahkan, pada kamera preview akan muncul tombol **Add Media** yang nantinya bisa digunakan oleh user untuk memilih gambar yang dimiliki.
+Setelah **Gallery Texture** ditambahkan, pada **Simulator** akan muncul tombol **Add Media** yang nantinya bisa digunakan oleh user untuk memilih gambar yang dimiliki.
 
 ![add media button](tutorial_images/17_add_media_button.PNG)
 
@@ -207,7 +207,7 @@ Pilihlah file gambar yang akan kamu gunakan. Kamu juga bisa menggunakan gambar y
 
 ![holding texture](tutorial_images/19_add_holding_image.gif)
 
-Seperti nampak pada preview, objek **Plane** saat ini sudah memiliki texture default berupa image yang kita pilih tadi.
+Seperti nampak pada **Simulator**, objek **Plane** saat ini sudah memiliki texture default berupa image yang kita pilih tadi.
 
 ## Mencoba Fitur Add Media
 
