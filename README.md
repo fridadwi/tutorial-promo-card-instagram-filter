@@ -240,7 +240,7 @@ Pada langkah selanjutnya kita akan memasang sebuah gambar default yang akan dita
 
 Klik **Gallery Texture** pada panel **Assets**, pada panel **Properties** yang terdapat disisi kanan layar berikan centang pada **Holding Texture** dan klik **Choose File**.
 
-Pilihlah file gambar yang akan kamu gunakan. Kamu juga bisa menggunakan gambar yang kamu download diawal tutorial ini.
+Pilihlah file gambar yang akan kamu gunakan. Kamu juga bisa menggunakan gambar yang bisa diunduh pada [link ini](http://Assets.zip).
 
 ![holding texture](tutorial_images/19_add_holding_image.gif)
 
