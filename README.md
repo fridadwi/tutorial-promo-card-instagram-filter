@@ -50,7 +50,7 @@ Diharapkan setelah mengikuti tutorial ini kamu sudah bisa membuat filter mu send
   * [Menerbitkan Filter](#menerbitkan-filter)
     + [Upload dan Export](#upload-dan-export)
   * [Approval](#approval)
-- [Apa selanjutnya?](#apa-selanjutnya-)
+- [Apa selanjutnya?](#apa-selanjutnya)
 - [Kesimpulan](#kesimpulan)
 - [Kredit](#kredit)
 
