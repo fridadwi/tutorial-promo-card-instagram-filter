@@ -19,6 +19,41 @@ Beberapa hal yang akan dicakup dalam tutorial ini adalah :
 
 Diharapkan setelah mengikuti tutorial ini kamu sudah bisa membuat filter mu sendiri yang dapat berfungsi dengan baik dan berhasil merilisnya.
 
+# Daftar Isi
+- [Overview](#overview)
+- [Daftar Isi](#daftar-isi)
+- [Menginstall Spark AR Studio](#--list--tutorial-images-00-listgif--menginstall-spark-ar-studio)
+  * [Persyaratan](#persyaratan)
+    + [Hardware](#hardware)
+    + [Akun](#akun)
+    + [Download Installer](#download-installer)
+    + [Login Facebook](#login-facebook)
+- [Membuat Project Baru](#--list--tutorial-images-00-listgif--membuat-project-baru)
+  * [Membuka Blank Project](#membuka-blank-project)
+  * [Tampilan utama Spark AR Studio](#tampilan-utama-spark-ar-studio)
+  * [Menambahkan Face Tracker](#menambahkan-face-tracker)
+  * [Menambahkan Objek Plane](#menambahkan-objek-plane)
+  * [Mengatur Ulang Susunan Objek](#mengatur-ulang-susunan-objek)
+  * [Mengatur Posisi Objek](#mengatur-posisi-objek)
+    + [Menggunakan Panel View](#menggunakan-panel-view)
+    + [Menggunakan Panel Properties](#menggunakan-panel-properties)
+  * [Menambahkan Material](#menambahkan-material)
+  * [Memasang Material Pada Objek](#memasang-material-pada-objek)
+  * [Menambahkan fitur Gallery Texture](#menambahkan-fitur-gallery-texture)
+  * [Memasang Texture Ke Material](#memasang-texture-ke-material)
+  * [Memasang Holding Texture](#memasang-holding-texture)
+  * [Mencoba Fitur Add Media](#mencoba-fitur-add-media)
+- [Testing Filter Dan Menerbitkan Filter](#--list--tutorial-images-00-listgif--testing-filter-dan-menerbitkan-filter)
+  * [Testing Filter Pada Device](#testing-filter-pada-device)
+    + [Testing menggunakan Spark AR Player](#testing-menggunakan-spark-ar-player)
+    + [Testing menggunakan akun Instagram](#testing-menggunakan-akun-instagram)
+  * [Menerbitkan Filter](#menerbitkan-filter)
+    + [Upload dan Export](#upload-dan-export)
+  * [Approval](#approval)
+- [Apa selanjutnya?](#apa-selanjutnya-)
+- [Kesimpulan](#kesimpulan)
+- [Kredit](#kredit)
+
 
 # ![list](tutorial_images/00_list.gif) Menginstall Spark AR Studio
 
