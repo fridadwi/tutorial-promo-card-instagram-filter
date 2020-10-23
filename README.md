@@ -1,7 +1,8 @@
 
 # Overview
 
-Dalam [laporan](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf) ILO (International Labour Organisation) diprediksi setidaknya ada 490 juta pekerja kehilangan atau berkurang jam kerjanya dikarenakan pandemi Covid-19.
+Dalam [laporan](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf) ILO (International Labour Organisation) diprediksi terjadi pengurangan jam kerja setara dengan 495 juta full time job akibat dari pandemi Covid-19. Banyak orang yang akhirnya kehilangan pekerjaan.
+
 
 ![pandemi](tutorial_images/00_sad.gif)
 
